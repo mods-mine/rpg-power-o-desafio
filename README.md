@@ -89,7 +89,7 @@ Este modpack só existe graças aos autores dos mods que ele usa. Todos os mods 
 
 This modpack only exists thanks to the authors of the mods it uses. All mods are downloaded directly from Modrinth, and each one keeps its own license. The modpack license covers only its own content: configs, KubeJS scripts and quests. The 137 mods below are grouped by their main role; some support more than one category. / Este modpack só existe graças aos autores dos mods que usa. Todos são baixados diretamente do Modrinth e cada um mantém sua própria licença. A licença do modpack cobre apenas o conteúdo próprio: configurações, scripts do KubeJS e missões. Os 137 mods abaixo estão agrupados por sua função principal; alguns se encaixam em mais de uma categoria.
 
-### RPG Series: classes, skills & progression / RPG Series: classes, habilidades e progressão
+### RPG Series
 
 - [Additional Jewelry (RPG Series Plus)](https://modrinth.com/mod/additional-rpg-jewelry)
 - [Archers (RPG Series)](https://modrinth.com/mod/archers)
@@ -114,7 +114,7 @@ This modpack only exists thanks to the authors of the mods it uses. All mods are
 - [Witcher (RPG Series Plus)](https://modrinth.com/mod/witcher-rpg-class)
 - [Wizards (RPG Series)](https://modrinth.com/mod/wizards)
 
-### Combat, weapons & magic / Combate, armas e magia
+### Combat & magic / Combate e magia
 
 - [Better Combat](https://modrinth.com/mod/better-combat)
 - [Critical Strike](https://modrinth.com/mod/critical-strike)
@@ -127,7 +127,7 @@ This modpack only exists thanks to the authors of the mods it uses. All mods are
 - [Spell Engine](https://modrinth.com/mod/spell-engine)
 - [Spell Power Attributes](https://modrinth.com/mod/spell-power)
 
-### Creatures, bosses & villagers / Criaturas, chefes e villagers
+### Mobs & villagers / Mobs e villagers
 
 - [Alex's Mobs](https://modrinth.com/mod/alexs-mobs-1.21.1)
 - [Born in Chaos](https://modrinth.com/mod/borninchaos)
@@ -141,7 +141,7 @@ This modpack only exists thanks to the authors of the mods it uses. All mods are
 - [Shared Pets](https://modrinth.com/mod/shared-pets)
 - [Villager Names](https://modrinth.com/mod/villager-names-serilum)
 
-### Exploration, world generation & structures / Exploração, geração de mundo e estruturas
+### World & structures / Mundo e estruturas
 
 - [BetterEnd: New Dawn](https://modrinth.com/mod/betterend-neoforge)
 - [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/ct-overhaul-village)
@@ -165,11 +165,11 @@ This modpack only exists thanks to the authors of the mods it uses. All mods are
 - [YUNG's Better Strongholds](https://modrinth.com/mod/yungs-better-strongholds)
 - [YUNG's Better Witch Huts](https://modrinth.com/mod/yungs-better-witch-huts)
 
-### Food, farming & cooking / Comida, agricultura e culinária
+### Food / Comida
 
 - [Farmer's Delight (base mod)](https://modrinth.com/mod/farmers-delight)
 
-### Building & decoration / Construção e decoração
+### Building / Construção
 
 - [Macaw's Bridges](https://modrinth.com/mod/macaws-bridges)
 - [Macaw's Doors](https://modrinth.com/mod/macaws-doors)
@@ -184,7 +184,7 @@ This modpack only exists thanks to the authors of the mods it uses. All mods are
 - [Macaw's Trapdoors](https://modrinth.com/mod/macaws-trapdoors)
 - [Macaw's Windows](https://modrinth.com/mod/macaws-windows)
 
-### Interface & visual features / Interface e recursos visuais
+### Interface
 
 - [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
 - [AppleSkin](https://modrinth.com/mod/appleskin)
@@ -198,7 +198,7 @@ This modpack only exists thanks to the authors of the mods it uses. All mods are
 - [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
 - [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
 
-### Travel, storage & quality of life / Viagem, armazenamento e qualidade de vida
+### Travel & storage / Viagem e armazenamento
 
 - [Carry On](https://modrinth.com/mod/carry-on)
 - [Comforts](https://modrinth.com/mod/comforts)
@@ -216,7 +216,7 @@ This modpack only exists thanks to the authors of the mods it uses. All mods are
 - [Waystones](https://modrinth.com/mod/waystones)
 - [Waystones Teleport Pets](https://modrinth.com/mod/waystones-teleport-pets)
 
-### Multiplayer & server features / Multiplayer e recursos de servidor
+### Multiplayer
 
 - [Corpse](https://modrinth.com/mod/corpse)
 - [Hardcore Revival](https://modrinth.com/mod/hardcore-revival)
@@ -224,7 +224,7 @@ This modpack only exists thanks to the authors of the mods it uses. All mods are
 - [Starter Kit](https://modrinth.com/mod/starter-kit)
 - [Teleport Commands](https://modrinth.com/mod/teleport-commands)
 
-### Libraries, APIs & performance / Bibliotecas, APIs e desempenho
+### Libraries / Bibliotecas
 
 - [Architectury API](https://modrinth.com/mod/architectury-api)
 - [Armor Model API](https://modrinth.com/mod/armor-model-api)
