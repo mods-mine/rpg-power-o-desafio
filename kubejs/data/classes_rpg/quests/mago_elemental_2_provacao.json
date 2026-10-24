@@ -1,0 +1,29 @@
+{
+  "title": "Provação do Mago Elemental",
+  "summary": "Você provou seu valor, aprendiz de Mago Elemental. Agora enfrente o que rasteja na escuridão: 20 aranhas e 10 creepers. Em troca, receberá a primeira parte da armadura da sua ordem.",
+  "requires": {
+    "quests": [
+      "classes_rpg:mago_elemental_1_iniciacao"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_aranhas",
+      "kill": "minecraft:spider",
+      "amount": 20
+    },
+    {
+      "id": "matar_creepers",
+      "kill": "minecraft:creeper",
+      "amount": 10
+    }
+  ],
+  "rewards": {
+    "xp": 300,
+    "items": {
+      "elemental_wizards_rpg:wind_head": 1,
+      "elemental_wizards_rpg:wind_chest": 1,
+      "minecraft:emerald": 16
+    }
+  }
+}

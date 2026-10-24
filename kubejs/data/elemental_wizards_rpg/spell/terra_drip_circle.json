@@ -1,0 +1,227 @@
+{
+  "school": "spell_power:earth",
+  "range": 15.0,
+  "tier": 3,
+  "group": "terra_stoneshaping",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 0.7,
+      "animation": {
+        "id": "mrpg_lib:two_handed_ground_channeling"
+      },
+      "particles": [
+        {
+          "id": "mrpg_lib:stone_particle",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.01,
+            "max_speed": 0.02
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "mrpg_lib:two_handed_ground_release"
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "mrpg_lib:stone_particle",
+          "appearance": {},
+          "batch": {
+            "count": 3.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.01,
+            "max_speed": 0.05,
+            "width_factor": 2.0
+          }
+        },
+        {
+          "id": "campfire_cosy_smoke",
+          "appearance": {},
+          "batch": {
+            "count": 3.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.001,
+            "max_speed": 0.001
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "mrpg_lib:earth_magic_impact1"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "required": true,
+      "sticky": true
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SPAWN",
+        "spawns": [
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 32.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 32.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 64.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 96.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 128.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 160.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 32.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": -32.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": -64.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": -96.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": -128.0,
+              "apply_yaw": true
+            }
+          },
+          {
+            "intent": "HARMFUL",
+            "entity_type_id": "elemental_wizards_rpg:terra_stone",
+            "time_to_live_seconds": 8,
+            "placement": {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": -160.0,
+              "apply_yaw": true
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "elemental_wizards_rpg:earth_summon",
+        "volume": 0.6
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.4,
+    "cooldown": {
+      "duration": 22.0
+    },
+    "item": {
+      "id": "mrpg_lib:terra_stone"
+    }
+  }
+}

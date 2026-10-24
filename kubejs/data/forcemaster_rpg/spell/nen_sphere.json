@@ -1,0 +1,137 @@
+{
+  "school": "spell_power:arcane",
+  "range": 14.0,
+  "tier": 3,
+  "group": "might",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 2.5,
+      "type": "CHARGE",
+      "charge": {
+        "min_release_ratio": 0.05,
+        "bonus": {
+          "range_add": 10.0,
+          "power_modifier": {
+            "power_multiplier": 1.0
+          },
+          "effect_amplifier_add": 3
+        }
+      },
+      "animation": {
+        "id": "forcemaster_rpg:nen_sphere_cast"
+      },
+      "movement_speed": 0.15,
+      "sound": {
+        "id": "spell_engine:generic_arcane_casting_2"
+      },
+      "particles": [
+        {
+          "id": "spell_engine:magic_spell",
+          "appearance": {
+            "color": 1405943807,
+            "motion": "BURST"
+          },
+          "batch": {
+            "count": 6.0,
+            "shape": "CIRCLE",
+            "anchor": "GROUND",
+            "min_speed": 0.1,
+            "max_speed": 0.5
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:area_effect_637",
+          "appearance": {
+            "color": 1405943807,
+            "scale": 0.4
+          },
+          "batch": {
+            "count": 1.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY"
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "forcemaster_rpg:nen_sphere_shot"
+    }
+  },
+  "target": {
+    "type": "NONE"
+  },
+  "deliver": {
+    "type": "CUSTOM",
+    "custom": {
+      "handler": "forcemaster_rpg:nen_sphere"
+    }
+  },
+  "impacts": [
+    {
+      "power_blend": [
+        {
+          "school": "spell_power:physical_melee",
+          "power": true,
+          "critical_chance": true,
+          "critical_damage": true,
+          "weight": 0.33333334
+        }
+      ],
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.7
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_arcane",
+            "appearance": {
+              "color": 1405943807,
+              "motion": "BURST"
+            },
+            "batch": {
+              "count": 10.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.2,
+              "max_speed": 0.4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "apply_to_caster": true,
+        "status_effect": {
+          "effect_id": "forcemaster_rpg:arcane_overflow",
+          "duration": 8.0,
+          "amplifier": 1,
+          "amplifier_cap": 6,
+          "amplifier_cap_power_multiplier": 0.15,
+          "refresh_duration": false,
+          "apply_mode": "ADD"
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 22.0
+    }
+  }
+}

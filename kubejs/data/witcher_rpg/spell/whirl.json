@@ -1,0 +1,55 @@
+{
+  "school": "spell_power:witcher_melee",
+  "range": 1.0,
+  "range_mechanic": "MELEE",
+  "tier": 4,
+  "group": "monster_hunter",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 2.5,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 6
+      },
+      "animation": {
+        "id": "witcher_rpg:witcher_whirl"
+      },
+      "movement_speed": 1.3,
+      "sound": {
+        "id": "witcher_rpg:whirl",
+        "volume": 0.6
+      }
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "angle_degrees": 360.0
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.35,
+          "knockback": 0.3
+        }
+      },
+      "sound": {
+        "id": "mrpg_lib:crippling_strike",
+        "volume": 0.2
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 1.0,
+    "cooldown": {
+      "duration": 30.0
+    }
+  }
+}

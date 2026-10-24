@@ -1,0 +1,30 @@
+{
+  "title": "Maestria do Witcher",
+  "summary": "Só um verdadeiro Witcher sobrevive ao Nether. Derrote 8 blazes e 5 esqueletos wither e volte para receber a arma de mestre e o restante da sua armadura.",
+  "requires": {
+    "quests": [
+      "classes_rpg:witcher_2_provacao"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_blazes",
+      "kill": "minecraft:blaze",
+      "amount": 8
+    },
+    {
+      "id": "matar_esqueletos_wither",
+      "kill": "minecraft:wither_skeleton",
+      "amount": 5
+    }
+  ],
+  "rewards": {
+    "xp": 600,
+    "items": {
+      "witcher_rpg:silver_witcher_sword": 1,
+      "witcher_rpg:wolven_legs": 1,
+      "witcher_rpg:wolven_feet": 1,
+      "minecraft:emerald": 32
+    }
+  }
+}

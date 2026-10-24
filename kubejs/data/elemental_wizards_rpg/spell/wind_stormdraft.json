@@ -1,0 +1,153 @@
+{
+  "school": "spell_power:air",
+  "range": 26.0,
+  "tier": 4,
+  "group": "wind_pressure",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 5.0,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 5
+      },
+      "animation": {
+        "id": "spell_engine:two_handed_channeling"
+      },
+      "sound": {
+        "id": "elemental_wizards_rpg:storm_draft_launch"
+      },
+      "particles": [
+        {
+          "id": "mrpg_lib:small_gust",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "PILLAR",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.05,
+            "max_speed": 0.2
+          }
+        },
+        {
+          "id": "mrpg_lib:small_gust",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.05,
+            "max_speed": 0.2
+          }
+        }
+      ]
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 2.2
+      },
+      "projectile": {
+        "client_data": {
+          "travel_particles": [
+            {
+              "id": "mrpg_lib:wind_vacuum",
+              "appearance": {},
+              "batch": {
+                "count": 3.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "min_speed": 0.1,
+                "max_speed": 0.1
+              }
+            },
+            {
+              "id": "minecraft:small_gust",
+              "appearance": {},
+              "batch": {
+                "count": 2.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "min_speed": 0.05,
+                "max_speed": 0.05
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.1
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "mrpg_lib:wind_vacuum",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "SPHERE",
+              "anchor": "LAUNCH_POINT",
+              "alignment": "LOOK",
+              "min_speed": 0.1,
+              "max_speed": 1.0
+            }
+          },
+          {
+            "id": "gust",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.5,
+              "max_speed": 0.8
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "mrpg_lib:air_magic_impact2"
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "spell_engine:stun",
+          "duration": 1.5
+        }
+      },
+      "sound": {
+        "id": "spell_engine:stun_generic"
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 36.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "mrpg_lib:storm_stone"
+    }
+  }
+}

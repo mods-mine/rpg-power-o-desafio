@@ -1,0 +1,97 @@
+{
+  "school": "spell_power:arcane",
+  "range": 0.0,
+  "tier": 4,
+  "group": "arcane_sorcery",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_area_release"
+    },
+    "sound": {
+      "id": "minecraft:entity.enderman.teleport"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "TELEPORT",
+        "teleport": {
+          "mode": "FORWARD",
+          "minimum_distance": 3.0,
+          "fizzle": {
+            "sound": {
+              "id": "spell_engine:negative_feedback",
+              "randomness": 0.0
+            },
+            "visuals": {
+              "particles": [
+                {
+                  "id": "minecraft:smoke",
+                  "appearance": {},
+                  "batch": {
+                    "count": 12.0,
+                    "shape": "SPHERE",
+                    "anchor": "ENTITY",
+                    "vertical_origin": 0.1,
+                    "min_speed": 0.05,
+                    "max_speed": 0.15
+                  }
+                }
+              ]
+            }
+          },
+          "forward": {
+            "distance": 15.0
+          },
+          "depart": {
+            "particles": [
+              {
+                "id": "minecraft:portal",
+                "appearance": {},
+                "batch": {
+                  "count": 40.0,
+                  "shape": "SPHERE",
+                  "anchor": "ENTITY",
+                  "min_speed": 0.1,
+                  "max_speed": 0.3,
+                  "pre_travel": 1.0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "minecraft:portal",
+            "appearance": {},
+            "batch": {
+              "count": 40.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.1,
+              "max_speed": 0.3,
+              "pre_travel": 4.0,
+              "invert": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.4,
+    "cooldown": {
+      "duration": 12.0
+    },
+    "item": {
+      "id": "runes:arcane_stone"
+    }
+  }
+}

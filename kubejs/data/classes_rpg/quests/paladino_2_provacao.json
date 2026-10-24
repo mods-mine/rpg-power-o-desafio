@@ -1,0 +1,29 @@
+{
+  "title": "Provação do Paladino",
+  "summary": "Você provou seu valor, aprendiz de Paladino. Agora enfrente o que rasteja na escuridão: 20 aranhas e 10 creepers. Em troca, receberá a primeira parte da armadura da sua ordem.",
+  "requires": {
+    "quests": [
+      "classes_rpg:paladino_1_iniciacao"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_aranhas",
+      "kill": "minecraft:spider",
+      "amount": 20
+    },
+    {
+      "id": "matar_creepers",
+      "kill": "minecraft:creeper",
+      "amount": 10
+    }
+  ],
+  "rewards": {
+    "xp": 300,
+    "items": {
+      "paladins:crusader_armor_head": 1,
+      "paladins:crusader_armor_chest": 1,
+      "minecraft:emerald": 16
+    }
+  }
+}

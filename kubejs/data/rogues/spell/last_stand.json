@@ -1,0 +1,99 @@
+{
+  "school": "spell_power:health",
+  "range": 0.0,
+  "tier": 4,
+  "group": "warrior_protection",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 2.5,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 5
+      },
+      "animation": {
+        "id": "spell_engine:one_handed_ground_charge"
+      },
+      "movement_speed": 0.0,
+      "start_sound": {
+        "id": "rogues:last_stand_start"
+      },
+      "sound": {
+        "id": "rogues:last_stand_casting",
+        "randomness": 0.0
+      },
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 2059796479,
+            "motion": "DECELERATE"
+          },
+          "batch": {
+            "count": 8.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "min_speed": 0.2,
+            "max_speed": 0.3,
+            "pre_travel": 6.0,
+            "invert": true
+          }
+        },
+        {
+          "id": "spell_engine:smoke_medium",
+          "appearance": {
+            "color": 2059796351
+          },
+          "batch": {
+            "count": 6.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.05,
+            "max_speed": 0.1
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_shout_release"
+    },
+    "sound": {
+      "id": "rogues:last_stand_release"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "rogues:last_stand",
+          "amplifier": 1,
+          "amplifier_cap": 4,
+          "apply_mode": "ADD"
+        }
+      }
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "action": {
+        "type": "HEAL",
+        "heal": {
+          "spell_power_coefficient": 0.2
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 60.0,
+      "proportional": true
+    }
+  }
+}

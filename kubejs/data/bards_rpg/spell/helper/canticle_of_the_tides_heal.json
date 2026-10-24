@@ -1,0 +1,51 @@
+{
+  "school": "spell_power:health",
+  "range": 2.0,
+  "tier": 1,
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:area_effect_658",
+          "appearance": {
+            "color": 16777215,
+            "scale_with": "RANGE",
+            "attachment": "POSITION"
+          },
+          "batch": {
+            "count": 1.0,
+            "shape": "NONE",
+            "anchor": "GROUND"
+          }
+        }
+      ]
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 0.5,
+      "include_caster": true
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "HEAL",
+        "heal": {
+          "spell_power_coefficient": 0.01
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 1.0
+    }
+  }
+}

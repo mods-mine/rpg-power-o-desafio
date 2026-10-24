@@ -1,0 +1,30 @@
+{
+  "title": "Maestria do Mago Elemental",
+  "summary": "Só um verdadeiro Mago Elemental sobrevive ao Nether. Derrote 8 blazes e 5 esqueletos wither e volte para receber a arma de mestre e o restante da sua armadura.",
+  "requires": {
+    "quests": [
+      "classes_rpg:mago_elemental_2_provacao"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_blazes",
+      "kill": "minecraft:blaze",
+      "amount": 8
+    },
+    {
+      "id": "matar_esqueletos_wither",
+      "kill": "minecraft:wither_skeleton",
+      "amount": 5
+    }
+  ],
+  "rewards": {
+    "xp": 600,
+    "items": {
+      "elemental_wizards_rpg:staff_wind": 1,
+      "elemental_wizards_rpg:wind_legs": 1,
+      "elemental_wizards_rpg:wind_feet": 1,
+      "minecraft:emerald": 32
+    }
+  }
+}

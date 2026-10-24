@@ -1,0 +1,30 @@
+{
+  "title": "Maestria do Paladino",
+  "summary": "Só um verdadeiro Paladino sobrevive ao Nether. Derrote 8 blazes e 5 esqueletos wither e volte para receber a arma de mestre e o restante da sua armadura.",
+  "requires": {
+    "quests": [
+      "classes_rpg:paladino_2_provacao"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_blazes",
+      "kill": "minecraft:blaze",
+      "amount": 8
+    },
+    {
+      "id": "matar_esqueletos_wither",
+      "kill": "minecraft:wither_skeleton",
+      "amount": 5
+    }
+  ],
+  "rewards": {
+    "xp": 600,
+    "items": {
+      "paladins:diamond_mace": 1,
+      "paladins:crusader_armor_legs": 1,
+      "paladins:crusader_armor_feet": 1,
+      "minecraft:emerald": 32
+    }
+  }
+}

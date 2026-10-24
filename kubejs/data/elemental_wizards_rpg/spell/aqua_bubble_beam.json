@@ -1,0 +1,156 @@
+{
+  "school": "spell_power:water",
+  "range": 7.0,
+  "tier": 2,
+  "group": "aqua_curing",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 4.0,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 22
+      },
+      "animation": {
+        "id": "spell_engine:one_handed_healing_charge"
+      },
+      "start_sound": {
+        "id": "block.bubble_column.whirlpool_ambient"
+      },
+      "sound": {
+        "id": "minecraft:block.bubble_column.upwards_ambient",
+        "volume": 2.5
+      },
+      "particles": [
+        {
+          "id": "mrpg_lib:bubble",
+          "appearance": {},
+          "batch": {
+            "count": 3.0,
+            "shape": "CONE",
+            "anchor": "LAUNCH_POINT",
+            "alignment": "LOOK",
+            "min_speed": 0.2,
+            "max_speed": 1.0,
+            "angle": 65.0
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "block.bubble_column.whirlpool_ambient"
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "distance_dropoff": "SQUARED",
+      "angle_degrees": 65.0
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "HEAL",
+        "heal": {
+          "spell_power_coefficient": 0.3
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "mrpg_lib:water_heal",
+            "appearance": {},
+            "batch": {
+              "count": 10.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.05,
+              "max_speed": 0.1
+            }
+          },
+          {
+            "id": "mrpg_lib:water_circle",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "min_speed": 0.2,
+              "max_speed": 1.0
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "spell_engine:generic_healing_impact_2",
+        "volume": 1.2
+      }
+    },
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.85,
+          "knockback": 0.0
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "mrpg_lib:bubble_pop",
+            "appearance": {},
+            "batch": {
+              "count": 10.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.05,
+              "max_speed": 0.2
+            }
+          },
+          {
+            "id": "mrpg_lib:bubble",
+            "appearance": {},
+            "batch": {
+              "count": 5.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.001,
+              "max_speed": 0.1
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "block.bubble_column.bubble_pop"
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "apply_to_caster": true,
+        "status_effect": {
+          "effect_id": "elemental_wizards_rpg:bubble_foam",
+          "duration": 4.0,
+          "amplifier_power_multiplier": 0.2
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.2,
+    "cooldown": {
+      "duration": 15.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "mrpg_lib:aqua_stone"
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "school": "spell_power:physical_ranged",
+  "range": 26.0,
+  "tier": 3,
+  "group": "trickster",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 0.5,
+      "animation": {
+        "id": "spell_engine:archery_pull"
+      },
+      "animates_ranged_weapon": true,
+      "sound": {
+        "id": "archers:bow_pull"
+      }
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:archery_release"
+    },
+    "sound": {
+      "id": "entity.arrow.shoot"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 1.2
+      },
+      "projectile": {
+        "client_data": {
+          "travel_particles": [
+            {
+              "id": "spell_engine:smoke_medium",
+              "appearance": {
+                "color": 3208659199
+              },
+              "batch": {
+                "count": 2.0,
+                "shape": "LINE",
+                "anchor": "ENTITY",
+                "alignment": "LOOK",
+                "min_speed": 0.01,
+                "max_speed": 0.05
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "fx": {
+                  "model_id": "archers_expansion:spell_projectile/regular_arrow"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.8
+        }
+      }
+    },
+    {
+      "target_modifiers": [
+        {
+          "conditions": [
+            {
+              "entity_type": "#c:bosses"
+            }
+          ],
+          "execute": "DENY"
+        }
+      ],
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "archers_expansion:disabling_shot",
+          "duration": 2.0,
+          "amplifier": 1,
+          "amplifier_cap": 1,
+          "apply_mode": "ADD"
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 3208659199
+            },
+            "batch": {
+              "count": 10.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "alignment": "LOOK",
+              "min_speed": 0.1,
+              "max_speed": 0.3
+            }
+          },
+          {
+            "id": "spell_engine:dripping_blood",
+            "appearance": {},
+            "batch": {
+              "count": 10.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "alignment": "LOOK",
+              "min_speed": 0.05,
+              "max_speed": 0.3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "action": {
+        "type": "VELOCITY",
+        "apply_to_caster": true,
+        "velocity": {
+          "frame": "LOOK",
+          "push": {
+            "x": 0.0,
+            "y": 0.7,
+            "z": -3.0
+          },
+          "intent": "HELPFUL"
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 4294967295
+            },
+            "batch": {
+              "count": 5.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "alignment": "LOOK",
+              "min_speed": 0.3,
+              "max_speed": 0.5
+            }
+          },
+          {
+            "id": "poof",
+            "appearance": {},
+            "batch": {
+              "count": 5.0,
+              "shape": "PILLAR",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "alignment": "LOOK",
+              "min_speed": 0.3,
+              "max_speed": 0.6
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 12.0
+    },
+    "item": {
+      "id": "minecraft:arrow"
+    }
+  }
+}

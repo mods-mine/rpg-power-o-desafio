@@ -1,0 +1,159 @@
+{
+  "school": "spell_power:healing",
+  "range": 0.0,
+  "tier": 4,
+  "group": "priest_holy",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_area_release"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SUMMON",
+        "summon": {
+          "entity_type_id": "paladins:lightwell",
+          "behaviour": {
+            "is_attackable": false,
+            "spawn_fx": {
+              "particles": [
+                {
+                  "id": "spell_engine:magic_holy",
+                  "appearance": {
+                    "color": 4294954239,
+                    "motion": "DECELERATE"
+                  },
+                  "batch": {
+                    "count": 30.0,
+                    "shape": "SPHERE",
+                    "anchor": "ENTITY",
+                    "min_speed": 0.2,
+                    "max_speed": 0.4
+                  }
+                }
+              ]
+            },
+            "existence_particles": [
+              {
+                "particles": [
+                  {
+                    "id": "spell_engine:magic_spark",
+                    "appearance": {
+                      "color": 4294954239,
+                      "motion": "ASCEND"
+                    },
+                    "batch": {
+                      "count": 2.0,
+                      "shape": "PILLAR",
+                      "anchor": "ENTITY",
+                      "vertical_origin": 0.1,
+                      "min_speed": 0.02,
+                      "max_speed": 0.12,
+                      "extent": 0.45
+                    }
+                  }
+                ],
+                "interval_ticks": 6
+              }
+            ],
+            "movement": {
+              "can_move": false,
+              "affected_by_gravity": false,
+              "is_pushable": false,
+              "collision": "NONE"
+            },
+            "targeting": {
+              "revenge": false,
+              "attack_with_owner": false,
+              "automatic_targeting": "FRIENDLY",
+              "look_around": false,
+              "detection_range": {
+                "mode": "MAXIMUM_ACTION_RANGE"
+              },
+              "clear_condition": {
+                "on_action_completed": [
+                  {
+                    "action_type": "SPELL_CAST"
+                  }
+                ]
+              }
+            },
+            "lifespan": {
+              "spawn_ticks": 20,
+              "active_seconds": 12,
+              "despawn_ticks": 20
+            },
+            "sounds": {
+              "spawn": {
+                "id": "paladins:lightwell_spawn"
+              },
+              "despawn": {
+                "id": "paladins:lightwell_despawn"
+              },
+              "ambient": {
+                "id": "paladins:lightwell_ambient"
+              }
+            },
+            "actions": [
+              {
+                "type": "SPELL_CAST",
+                "spell_cast": {
+                  "spell_id": "paladins:lightwell_heal",
+                  "cooldown": 30
+                }
+              }
+            ]
+          },
+          "attribute_scaling": {
+            "entries": [
+              {
+                "attribute_id": "spell_power:healing",
+                "modifiers": [
+                  {
+                    "attribute_id": "spell_power:healing",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.5
+                  }
+                ]
+              },
+              {
+                "attribute_id": "spell_power:haste",
+                "modifiers": [
+                  {
+                    "attribute_id": "spell_power:haste",
+                    "operation": "ADD_VALUE",
+                    "base": -100.0,
+                    "coefficient": 1.0
+                  }
+                ]
+              }
+            ]
+          },
+          "placements": [
+            {
+              "location_offset_by_look": 1.5,
+              "apply_yaw": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 45.0,
+      "haste_affected": false
+    },
+    "item": {
+      "id": "runes:healing_stone"
+    }
+  }
+}

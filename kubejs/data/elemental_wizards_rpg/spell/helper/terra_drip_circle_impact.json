@@ -1,0 +1,67 @@
+{
+  "school": "spell_power:earth",
+  "range": 15.0,
+  "tier": 3,
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.65,
+          "knockback": 0.0
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "campfire_cosy_smoke",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "chance": 0.25,
+              "shape": "PILLAR",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "min_speed": 0.0001,
+              "max_speed": 0.0008
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "mrpg_lib:earth_magic_impact1"
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "spell_engine:bleed",
+          "duration": 4.0,
+          "amplifier_power_multiplier": 0.2,
+          "amplifier_cap": 2
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:dripping_blood",
+            "appearance": {},
+            "batch": {
+              "count": 10.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.05,
+              "max_speed": 0.3
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

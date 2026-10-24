@@ -1,0 +1,30 @@
+{
+  "title": "Faro Afiado",
+  "summary": "Seu cão já aprendeu o básico. Para ir além, ele precisa de carne e de caçadas de verdade: traga 16 bifes crus e derrote 20 zumbis ao lado dele.",
+  "requires": {
+    "quests": [
+      "classes_rpg:adestrador_1_primeiro_companheiro"
+    ]
+  },
+  "goals": [
+    {
+      "id": "entregar_bifes",
+      "collect": "minecraft:beef",
+      "amount": 16,
+      "mandatory": true
+    },
+    {
+      "id": "matar_zumbis",
+      "kill": "minecraft:zombie",
+      "amount": 20
+    }
+  ],
+  "rewards": {
+    "xp": 300,
+    "items": {
+      "doggytalents:training_treat": 32,
+      "doggytalents:super_treat": 2,
+      "doggytalents:treat_bag": 1
+    }
+  }
+}

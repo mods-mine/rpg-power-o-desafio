@@ -1,0 +1,130 @@
+{
+  "school": "spell_power:physical_ranged",
+  "range": 0.0,
+  "tier": 3,
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "deliver": {
+    "type": "CLOUD",
+    "clouds": [
+      {
+        "spawn_ticks": 8,
+        "despawn_ticks": 15,
+        "volume": {
+          "radius": 3.0,
+          "sound": {
+            "id": "archers_expansion:poison_cloud",
+            "volume": 0.3
+          }
+        },
+        "time_to_live_seconds": 6.0,
+        "impact_tick_interval": 25,
+        "client_data": {
+          "model_fx": [
+            {
+              "model_id": "archers_expansion:spell_effect/venom_blob",
+              "light_emission": "GLOW_TRANSLUCENT",
+              "scale": 2.0,
+              "duration": 120,
+              "positioning": {
+                "vertical": 0.0
+              },
+              "initial": [
+                {
+                  "operation": "scale",
+                  "x": -1.0,
+                  "y": -1.0,
+                  "z": -1.0
+                },
+                {
+                  "operation": "translate",
+                  "x": 0.0,
+                  "y": 0.7,
+                  "z": 0.0
+                }
+              ],
+              "animations": [
+                {
+                  "start": 0,
+                  "end": 8,
+                  "easing": "EASE_OUT_BOUNCE",
+                  "operation": "scale",
+                  "x": 1.0,
+                  "y": 1.0,
+                  "z": 1.0
+                },
+                {
+                  "start": 105,
+                  "end": 120,
+                  "easing": "EASE_IN_CUBIC",
+                  "operation": "scale",
+                  "x": -1.0,
+                  "y": -1.0,
+                  "z": -1.0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "impacts": [
+    {
+      "target_modifiers": [
+        {
+          "conditions": [
+            {
+              "entity_type": "#minecraft:ignores_poison_and_regen"
+            }
+          ],
+          "execute": "DENY"
+        }
+      ],
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "minecraft:poison",
+          "duration": 6.0,
+          "amplifier": 1,
+          "amplifier_cap": 1,
+          "amplifier_cap_power_multiplier": 0.1,
+          "apply_mode": "ADD"
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 2583652095
+            },
+            "batch": {
+              "count": 10.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.2,
+              "max_speed": 0.4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.2
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 1.0
+    }
+  }
+}

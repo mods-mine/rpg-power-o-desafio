@@ -1,0 +1,91 @@
+{
+  "school": "spell_power:arcane",
+  "range": 0.0,
+  "tier": 4,
+  "group": "arcane_conjuration",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 5.0,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 10
+      },
+      "animation": {
+        "id": "spell_engine:one_handed_levitate_channel"
+      },
+      "movement_speed": 0.0,
+      "start_sound": {
+        "id": "wizards:arcane_evocation_start"
+      },
+      "sound": {
+        "id": "wizards:arcane_evocation_casting",
+        "randomness": 0.0
+      },
+      "particles": [
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 4288282623,
+            "motion": "DECELERATE"
+          },
+          "batch": {
+            "count": 8.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "min_speed": 0.2,
+            "max_speed": 0.3,
+            "pre_travel": 6.0,
+            "invert": true
+          }
+        },
+        {
+          "id": "spell_engine:magic_spark",
+          "appearance": {
+            "color": 4284940287,
+            "motion": "DECELERATE"
+          },
+          "batch": {
+            "count": 8.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "min_speed": 0.2,
+            "max_speed": 0.3,
+            "pre_travel": 6.0,
+            "invert": true
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "wizards:arcane_evocation_release"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "wizards:arcane_evocation",
+          "amplifier": 1,
+          "amplifier_cap": 9,
+          "apply_mode": "ADD"
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 45.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "runes:arcane_stone"
+    }
+  }
+}

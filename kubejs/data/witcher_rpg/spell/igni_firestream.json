@@ -1,0 +1,120 @@
+{
+  "school": "spell_power:igni",
+  "range": 6.0,
+  "tier": 3,
+  "group": "signs",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 7.0,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 35
+      },
+      "animation": {
+        "id": "witcher_rpg:sign_cast_long"
+      },
+      "movement_speed": 0.5,
+      "sound": {
+        "id": "witcher_rpg:igni_sign",
+        "randomness": 0.4
+      },
+      "particles": [
+        {
+          "id": "spell_engine:flame_medium_a",
+          "appearance": {},
+          "batch": {
+            "count": 5.0,
+            "shape": "CONE",
+            "anchor": "LAUNCH_POINT",
+            "alignment": "LOOK",
+            "min_speed": 0.8,
+            "max_speed": 6.0,
+            "angle": 20.0
+          }
+        },
+        {
+          "id": "witcher_rpg:igni_sign_cast",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "chance": 0.2,
+            "shape": "PIPE",
+            "anchor": "LAUNCH_POINT",
+            "min_speed": 0.01,
+            "max_speed": 0.2
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "block.blastfurnace.fire_crackle"
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "angle_degrees": 20.0
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.9,
+          "knockback": 0.2
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "lava",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.5,
+              "max_speed": 3.0
+            }
+          },
+          {
+            "id": "spell_engine:flame_spark",
+            "appearance": {},
+            "batch": {
+              "count": 10.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.08,
+              "max_speed": 0.2
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "block.blastfurnace.fire_crackle"
+      }
+    },
+    {
+      "action": {
+        "type": "FIRE",
+        "fire": {
+          "duration": 3.0
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.5,
+    "cooldown": {
+      "group": "igni",
+      "duration": 12.0
+    }
+  }
+}

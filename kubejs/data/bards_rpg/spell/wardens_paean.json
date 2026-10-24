@@ -1,0 +1,103 @@
+{
+  "school": "spell_power:arcane",
+  "secondary_archetype": "ANY",
+  "range": 10.0,
+  "tier": 3,
+  "group": "humiliate",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "bards_rpg:sing_release",
+      "overrides": [
+        {
+          "equipment": {
+            "slot": "MAINHAND",
+            "item": "#bards_rpg:lyres"
+          },
+          "id": "bards_rpg:lyre_release"
+        },
+        {
+          "equipment": {
+            "slot": "MAINHAND",
+            "item": "#bards_rpg:lutes"
+          },
+          "id": "bards_rpg:lute_release"
+        },
+        {
+          "equipment": {
+            "slot": "MAINHAND",
+            "item": "#bards_rpg:harp_crossbows"
+          },
+          "id": "bards_rpg:harp_release"
+        }
+      ]
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "mrpg_lib:music_note",
+          "appearance": {
+            "color": 16777215
+          },
+          "batch": {
+            "count": 10.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.4,
+            "max_speed": 0.5,
+            "extent": 2.0,
+            "width_factor": 2.0
+          }
+        }
+      ]
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "use_caster_as_fallback": true
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "bards_rpg:wardens_paean_harmful",
+          "duration": 8.0,
+          "amplifier_power_multiplier": 0.3,
+          "amplifier_cap": 4
+        }
+      },
+      "sound": {
+        "id": "bards_rpg:bard_impact"
+      }
+    },
+    {
+      "school": "spell_power:healing",
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "bards_rpg:wardens_paean_beneficial",
+          "duration": 8.0,
+          "amplifier_power_multiplier": 0.3,
+          "amplifier_cap": 4
+        }
+      },
+      "sound": {
+        "id": "bards_rpg:bard_buff"
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 25.0
+    }
+  }
+}

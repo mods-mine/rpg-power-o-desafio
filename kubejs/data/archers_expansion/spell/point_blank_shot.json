@@ -1,0 +1,127 @@
+{
+  "school": "spell_power:fire_ranged",
+  "range": 26.0,
+  "tier": 3,
+  "group": "guard",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 1.2,
+      "animation": {
+        "id": "spell_engine:archery_pull"
+      },
+      "animates_ranged_weapon": true,
+      "sound": {
+        "id": "archers:bow_pull"
+      }
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:archery_release"
+    },
+    "sound": {
+      "id": "item.crossbow.shoot"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 2.5
+      },
+      "projectile": {
+        "client_data": {
+          "travel_particles": [
+            {
+              "id": "campfire_cosy_smoke",
+              "appearance": {},
+              "batch": {
+                "count": 20.0,
+                "shape": "LINE",
+                "anchor": "ENTITY",
+                "alignment": "LOOK",
+                "roll_per_tick": 10.0,
+                "roll_offset": 180.0,
+                "min_speed": 0.2,
+                "max_speed": 0.22
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "fx": {
+                  "model_id": "archers_expansion:spell_projectile/regular_arrow",
+                  "scale": 3.0
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.1,
+          "knockback": 0.0
+        }
+      }
+    },
+    {
+      "target_modifiers": [
+        {
+          "conditions": [
+            {
+              "entity_type": "#c:bosses"
+            }
+          ],
+          "execute": "DENY"
+        }
+      ],
+      "action": {
+        "type": "CUSTOM",
+        "custom": {
+          "intent": "HARMFUL",
+          "handler": "mrpg_lib:range_scaled_knockback"
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "poof",
+            "appearance": {},
+            "batch": {
+              "count": 50.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "alignment": "LOOK",
+              "min_speed": 1.0,
+              "max_speed": 2.0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 16.0
+    },
+    "item": {
+      "id": "minecraft:arrow"
+    }
+  }
+}

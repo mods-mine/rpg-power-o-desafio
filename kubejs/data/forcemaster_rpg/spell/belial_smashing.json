@@ -1,0 +1,71 @@
+{
+  "school": "spell_power:arcane",
+  "tier": 3,
+  "group": "brawl",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:smoke_large",
+          "appearance": {
+            "color": 4294967295,
+            "attachment": "POSITION"
+          },
+          "batch": {
+            "count": 35.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.1,
+            "max_speed": 0.5,
+            "width_factor": 2.0
+          }
+        }
+      ]
+    }
+  },
+  "target": {
+    "type": "NONE"
+  },
+  "deliver": {
+    "type": "MELEE",
+    "melee": {
+      "allow_airborne": false,
+      "attacks": [
+        {
+          "attack_speed_multiplier": 1.2,
+          "delay": 0.1,
+          "additional_strikes": 8,
+          "additional_strike_delay": 0.15,
+          "additional_hits_on_same_target": false,
+          "forward_momentum": 3.0,
+          "movement_slipperiness": 0.2,
+          "hitbox": {
+            "width": 0.5,
+            "height": 0.5,
+            "arc": 160.0
+          },
+          "animation": {
+            "id": "forcemaster_rpg:fist_rush"
+          },
+          "swing_sound": {
+            "id": "spell_engine:weapon_hammer_swing"
+          },
+          "impact_sound": {
+            "id": "forcemaster_rpg:knuckle_attack"
+          }
+        }
+      ]
+    }
+  },
+  "cost": {
+    "cooldown": {
+      "duration": 20.0
+    }
+  }
+}

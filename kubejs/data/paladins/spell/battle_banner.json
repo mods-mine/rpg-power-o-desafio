@@ -1,0 +1,122 @@
+{
+  "school": "spell_power:healing",
+  "range": 0.0,
+  "tier": 4,
+  "group": "paladin_protection",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_healing_release"
+    },
+    "sound": {
+      "id": "paladins:battle_banner_release"
+    }
+  },
+  "deliver": {
+    "type": "CLOUD",
+    "clouds": [
+      {
+        "entity_type_id": "paladins:battle_banner",
+        "spawn_ticks": 43,
+        "despawn_ticks": 43,
+        "volume": {
+          "radius": 3.0,
+          "extra_radius": {
+            "power_coefficient": 1.0,
+            "power_cap": 4.0
+          },
+          "area": {
+            "vertical_range_multiplier": 0.3
+          }
+        },
+        "time_to_live_seconds": 10.0,
+        "impact_tick_interval": 10,
+        "placement": {
+          "location_offset_by_look": 2.0,
+          "location_yaw_offset": 20.0,
+          "apply_yaw": true
+        },
+        "presence_sound": {
+          "id": "paladins:battle_banner_presence",
+          "randomness": 0.0
+        },
+        "client_data": {
+          "light_level": 15,
+          "particles": [
+            {
+              "id": "spell_engine:magic_spark",
+              "appearance": {
+                "color": 4294954239,
+                "motion": "DECELERATE"
+              },
+              "batch": {
+                "count": 15.0,
+                "shape": "PILLAR",
+                "anchor": "ENTITY",
+                "vertical_origin": 0.1,
+                "min_speed": 0.1,
+                "max_speed": 0.15
+              }
+            },
+            {
+              "id": "spell_engine:magic_stripe",
+              "appearance": {
+                "color": 4294954239,
+                "motion": "FLOAT"
+              },
+              "batch": {
+                "count": 3.0,
+                "shape": "PIPE",
+                "anchor": "ENTITY",
+                "vertical_origin": 0.1,
+                "min_speed": 0.05,
+                "max_speed": 0.1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spawn_ticks": 43,
+        "despawn_ticks": 43,
+        "volume": {
+          "radius": 0.0
+        },
+        "time_to_live_seconds": 10.0,
+        "impact_tick_interval": 10000,
+        "placement": {
+          "location_offset_by_look": 2.0,
+          "location_yaw_offset": 20.0,
+          "apply_yaw": true
+        },
+        "client_data": {
+          "light_level": 15
+        }
+      }
+    ]
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "paladins:battle_banner",
+          "duration": 2.0
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 45.0
+    },
+    "item": {
+      "id": "runes:healing_stone"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "school": "spell_power:fire_ranged",
+  "secondary_archetype": "ANY",
+  "range": 0.0,
+  "tier": 3,
+  "group": "explosives",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "mrpg_lib:place_object_instant"
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:smoke_medium",
+          "appearance": {},
+          "batch": {
+            "count": 20.0,
+            "shape": "CIRCLE",
+            "anchor": "GROUND",
+            "min_speed": 0.2,
+            "max_speed": 0.4
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "minecraft:block.barrel.open"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SPAWN",
+        "spawns": [
+          {
+            "entity_type_id": "archers_expansion:explosive_barrel",
+            "time_to_live_seconds": 25,
+            "placement": {
+              "location_offset_by_look": 2.0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 8.0
+    }
+  }
+}

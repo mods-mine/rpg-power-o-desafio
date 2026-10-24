@@ -1,0 +1,25 @@
+{
+  "title": "O Primeiro Companheiro",
+  "summary": "Um bom cão vale mais que uma espada. Traga-me 16 ossos e derrote 10 esqueletos que rondam a vila, e eu ensino você a treinar seu companheiro.",
+  "goals": [
+    {
+      "id": "entregar_ossos",
+      "collect": "minecraft:bone",
+      "amount": 16,
+      "mandatory": true
+    },
+    {
+      "id": "matar_esqueletos",
+      "kill": "minecraft:skeleton",
+      "amount": 10
+    }
+  ],
+  "rewards": {
+    "xp": 120,
+    "items": {
+      "doggytalents:training_treat": 24,
+      "doggytalents:wool_collar": 1,
+      "doggytalents:whistle": 1
+    }
+  }
+}

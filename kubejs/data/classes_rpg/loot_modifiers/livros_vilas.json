@@ -1,0 +1,71 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_plains_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_desert_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_savanna_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_snowy_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_taiga_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/village/village_cartographer"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ctov:chests/village/village_badlands_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ctov:chests/village/village_beach_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ctov:chests/village/village_dark_forest_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ctov:chests/village/village_jungle_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ctov:chests/village/village_mountain_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ctov:chests/village/village_mushroom_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ctov:chests/village/village_swamp_house"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ctov:chests/village/village_library"
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.5
+    }
+  ],
+  "table": "classes_rpg:chests/livros_veiculos"
+}

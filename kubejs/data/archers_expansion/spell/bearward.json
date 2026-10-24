@@ -1,0 +1,209 @@
+{
+  "school": "spell_power:frost_ranged",
+  "secondary_archetype": "ANY",
+  "range": 0.0,
+  "tier": 4,
+  "group": "stalker",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "mrpg_lib:two_handed_roar"
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:magic_frost",
+          "appearance": {
+            "motion": "BURST"
+          },
+          "batch": {
+            "count": 40.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "min_speed": 0.2,
+            "max_speed": 0.6
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "spell_engine:generic_frost_release"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SUMMON",
+        "summon": {
+          "entity_type_id": "archers_expansion:spell_polar_bear",
+          "behaviour": {
+            "spawn_fx": {
+              "particles": [
+                {
+                  "id": "spell_engine:magic_frost",
+                  "appearance": {
+                    "color": 65535,
+                    "motion": "BURST"
+                  },
+                  "batch": {
+                    "count": 40.0,
+                    "shape": "SPHERE",
+                    "anchor": "ENTITY",
+                    "min_speed": 0.2,
+                    "max_speed": 0.5
+                  }
+                },
+                {
+                  "id": "spell_engine:snowflake",
+                  "appearance": {},
+                  "batch": {
+                    "count": 30.0,
+                    "shape": "PILLAR",
+                    "anchor": "ENTITY",
+                    "vertical_origin": 0.1,
+                    "min_speed": 0.1,
+                    "max_speed": 0.3
+                  }
+                }
+              ]
+            },
+            "despawn_fx": {
+              "particles": [
+                {
+                  "id": "spell_engine:snowflake",
+                  "appearance": {
+                    "color": 65535
+                  },
+                  "batch": {
+                    "count": 25.0,
+                    "shape": "CIRCLE",
+                    "anchor": "ENTITY",
+                    "vertical_origin": 0.1,
+                    "min_speed": 0.1,
+                    "max_speed": 0.3
+                  }
+                }
+              ]
+            },
+            "movement": {
+              "follow": {
+                "teleport_after_distance": 32.0
+              }
+            },
+            "targeting": {
+              "automatic_targeting": "HOSTILE"
+            },
+            "lifespan": {
+              "spawn_ticks": 20,
+              "active_seconds": 30,
+              "despawn_ticks": 20
+            },
+            "sounds": {
+              "spawn": {
+                "id": "archers_expansion:polarbear_spawn"
+              },
+              "despawn": {
+                "id": "minecraft:entity.polar_bear.hurt"
+              },
+              "hurt": {
+                "id": "minecraft:entity.polar_bear.hurt"
+              },
+              "death": {
+                "id": "archers_expansion:polarbear_death"
+              },
+              "ambient": {
+                "id": "archers_expansion:polarbear_idle"
+              },
+              "step": {
+                "id": "minecraft:entity.polar_bear.step"
+              }
+            },
+            "actions": [
+              {
+                "type": "MELEE_ATTACK",
+                "melee_attack": {
+                  "max_range": 0.0,
+                  "speed": 1.4,
+                  "movement_speed": 1.2,
+                  "windup": 0.35,
+                  "radius": 1.5,
+                  "swing_sound": {
+                    "id": "archers_expansion:polarbear_swing"
+                  },
+                  "impact_sound": {
+                    "id": "archers_expansion:polarbear_swing_impact"
+                  }
+                }
+              }
+            ]
+          },
+          "attribute_scaling": {
+            "entries": [
+              {
+                "attribute_id": "minecraft:generic.max_health",
+                "modifiers": [
+                  {
+                    "attribute_id": "ranged_weapon:damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.7
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.armor",
+                "modifiers": [
+                  {
+                    "attribute_id": "ranged_weapon:damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.04
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.attack_damage",
+                "modifiers": [
+                  {
+                    "attribute_id": "ranged_weapon:damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.55
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.attack_knockback",
+                "modifiers": [
+                  {
+                    "attribute_id": "ranged_weapon:damage",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.1
+                  }
+                ]
+              }
+            ]
+          },
+          "placements": [
+            {
+              "location_offset_by_look": 2.0,
+              "apply_yaw": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.4,
+    "cooldown": {
+      "duration": 60.0,
+      "haste_affected": false
+    }
+  }
+}

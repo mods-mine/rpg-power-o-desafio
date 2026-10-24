@@ -1,0 +1,83 @@
+{
+  "school": "spell_power:water",
+  "range": 5.0,
+  "tier": 4,
+  "group": "aqua_curing",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 1.5,
+      "animation": {
+        "id": "spell_engine:one_handed_sky_charge"
+      },
+      "movement_speed": 0.0,
+      "sound": {
+        "id": "weather.rain.above"
+      },
+      "particles": [
+        {
+          "id": "elemental_wizards_rpg:healing_rain",
+          "appearance": {},
+          "batch": {
+            "count": 10.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "min_speed": 0.01,
+            "max_speed": 0.1,
+            "extent": 1.5,
+            "width_factor": 2.0
+          }
+        },
+        {
+          "id": "spell_engine:magic_holy",
+          "appearance": {
+            "color": 1250689023,
+            "motion": "DECELERATE"
+          },
+          "batch": {
+            "count": 5.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "min_speed": 0.2,
+            "max_speed": 0.25,
+            "extent": 1.5
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:two_handed_channeling_release"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SPAWN",
+        "spawns": [
+          {
+            "entity_type_id": "elemental_wizards_rpg:healing_rain_cloud",
+            "time_to_live_seconds": 12,
+            "placement": {
+              "apply_yaw": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 40.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "mrpg_lib:aqua_stone"
+    }
+  }
+}

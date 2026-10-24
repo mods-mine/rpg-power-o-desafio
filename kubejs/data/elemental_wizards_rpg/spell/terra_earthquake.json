@@ -1,0 +1,86 @@
+{
+  "school": "spell_power:earth",
+  "range": 8.0,
+  "tier": 4,
+  "group": "terra_geomancing",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 2.0,
+      "type": "CHARGE",
+      "charge": {
+        "min_release_ratio": 0.25,
+        "bonus": {
+          "range_add": 16.0
+        }
+      },
+      "animation": {
+        "id": "mrpg_lib:two_handed_ground_channeling"
+      },
+      "sound": {
+        "id": "mrpg_lib:earth_magic_impact2",
+        "volume": 0.5
+      },
+      "particles": [
+        {
+          "id": "campfire_cosy_smoke",
+          "appearance": {},
+          "batch": {
+            "count": 10.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.001,
+            "max_speed": 0.1
+          }
+        },
+        {
+          "id": "mrpg_lib:stone_particle",
+          "appearance": {},
+          "batch": {
+            "count": 3.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.01,
+            "max_speed": 0.05,
+            "extent": 1.0
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "mrpg_lib:two_handed_ground_release"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SPAWN",
+        "spawns": [
+          {
+            "entity_type_id": "elemental_wizards_rpg:earthquake",
+            "time_to_live_seconds": 5,
+            "placement": {
+              "apply_yaw": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.5,
+    "cooldown": {
+      "duration": 35.0
+    },
+    "item": {
+      "id": "mrpg_lib:terra_stone"
+    }
+  }
+}

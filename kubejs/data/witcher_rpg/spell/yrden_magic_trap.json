@@ -1,0 +1,70 @@
+{
+  "school": "spell_power:yrden",
+  "range": 3.0,
+  "tier": 4,
+  "group": "signs",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 0.5,
+      "animation": {
+        "id": "witcher_rpg:sign_cast_long"
+      },
+      "particles": [
+        {
+          "id": "witcher_rpg:yrden_sign_cast",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "min_speed": 0.001,
+            "max_speed": 0.006
+          }
+        },
+        {
+          "id": "witcher_rpg:yrden_sign_cast",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "PILLAR",
+            "anchor": "ENTITY",
+            "min_speed": 0.01,
+            "max_speed": 0.06
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "witcher_rpg:sign_cast_ground"
+    },
+    "sound": {
+      "id": "witcher_rpg:yrden_sign"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SPAWN",
+        "spawns": [
+          {
+            "entity_type_id": "witcher_rpg:yrden_magical_trap",
+            "time_to_live_seconds": 20
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.4,
+    "cooldown": {
+      "group": "yrden",
+      "duration": 35.0
+    }
+  }
+}

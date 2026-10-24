@@ -1,0 +1,182 @@
+{
+  "school": "spell_power:arcane",
+  "range": 32.0,
+  "tier": 3,
+  "group": "arcane_sorcery",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 5.0,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 25
+      },
+      "animation": {
+        "id": "spell_engine:two_handed_channeling"
+      },
+      "start_sound": {
+        "id": "wizards:arcane_beam_start"
+      },
+      "sound": {
+        "id": "wizards:arcane_beam_casting",
+        "randomness": 0.0
+      },
+      "particles": [
+        {
+          "id": "spell_engine:magic_spell",
+          "appearance": {
+            "color": 4284940287,
+            "motion": "ASCEND"
+          },
+          "batch": {
+            "count": 0.5,
+            "shape": "PIPE",
+            "anchor": "LAUNCH_POINT",
+            "alignment": "LOOK",
+            "min_speed": 0.1,
+            "max_speed": 0.2
+          }
+        },
+        {
+          "id": "firework",
+          "appearance": {},
+          "batch": {
+            "count": 0.5,
+            "shape": "PIPE",
+            "anchor": "LAUNCH_POINT",
+            "alignment": "LOOK",
+            "min_speed": 0.1,
+            "max_speed": 0.2,
+            "width_factor": 2.0
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "wizards:arcane_beam_release"
+    }
+  },
+  "target": {
+    "type": "BEAM",
+    "beam": {
+      "color_rgba": 4284940287,
+      "width": 0.08,
+      "flow": 1.5,
+      "block_hit": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spell",
+            "appearance": {
+              "color": 4284940287,
+              "motion": "ASCEND"
+            },
+            "batch": {
+              "count": 1.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "alignment": "LOOK",
+              "min_speed": 0.1,
+              "max_speed": 0.2
+            }
+          },
+          {
+            "id": "firework",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "alignment": "LOOK",
+              "min_speed": 0.1,
+              "max_speed": 0.2
+            }
+          },
+          {
+            "id": "spell_engine:magic_arcane",
+            "appearance": {
+              "color": 4284940287,
+              "motion": "BURST"
+            },
+            "batch": {
+              "count": 3.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.3,
+              "max_speed": 0.4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {}
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_arcane",
+            "appearance": {
+              "color": 4284940287,
+              "motion": "BURST"
+            },
+            "batch": {
+              "count": 4.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.2,
+              "max_speed": 0.7
+            }
+          },
+          {
+            "id": "spell_engine:magic_spell",
+            "appearance": {
+              "color": 4284940287,
+              "motion": "ASCEND"
+            },
+            "batch": {
+              "count": 2.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.1,
+              "max_speed": 0.2
+            }
+          },
+          {
+            "id": "firework",
+            "appearance": {},
+            "batch": {
+              "count": 3.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.1,
+              "max_speed": 0.2
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "wizards:arcane_beam_impact"
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "effect_id": "wizards:arcane_charge",
+    "cooldown": {
+      "duration": 10.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "runes:arcane_stone"
+    }
+  }
+}

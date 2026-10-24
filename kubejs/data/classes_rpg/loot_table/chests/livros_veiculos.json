@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Manual do Aviador",
+              "author": "Guilda dos Viajantes",
+              "generation": 0
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                "§lManual do Aviador§r\n\nComo construir as aeronaves do Immersive Aircraft.\n\nNas receitas, cada linha é uma fileira da bancada (3x3). '-' é espaço vazio.",
+                "§lCasco (Hull)§r\n\nTronco Tronco Tronco\nFerro Ferro Ferro\nTronco Tronco Tronco\n\nQualquer tipo de tronco serve.",
+                "§lHélice (Propeller)§r\n\nFerro Ferro -\n- Ferro -\n- Ferro Ferro\n\n§lVela (Sail)§r\n\nTapete Tapete Linha\n(3 fileiras iguais, tapete branco)",
+                "§lCaldeira (Boiler)§r\n\nCobre Cobre Cobre\nCobre - Cobre\nCobre Fornalha Cobre",
+                "§lMotor (Engine)§r\n\n- Pedregulho -\nPistão AltoForno Pistão\nPedregulho Caldeira Pedregulho",
+                "§lAeronaves§r\n\n§lGirodino§r (sem motor, a pedal):\n- Vela -\nCasco Hélice Casco\n- Vela -\n\nO mais barato. Empurre com W para ganhar velocidade.",
+                "§lBiplano§r (rápido, precisa de pista):\n- Casco -\nCasco Motor Hélice\n- Casco -\n\n§lDirigível§r (lento e fácil):\nVela Vela Vela\nVela Vela Vela\nCasco Casco Motor",
+                "§lQuadricóptero§r (bom para construir):\nHélice Bambu Hélice\nBambu Motor Bambu\nHélice Bambu Hélice\n\n§lDirigível de Carga§r:\nBaú Dirigível Baú\nBaú Casco Baú",
+                "§lNavio de Guerra§r:\nVela Casco Vela\nMotor DirigCarga Motor\nCasco Engrenagens Casco\n\n§lBamboo Hopper§r (pousa na água):\nBiplano Casco Biplano\nBlocoBambu Motor BlocoBambu\nBlocoBambu x3",
+                "§lComo voar§r\n\nColoque a aeronave no chão e clique com o botão direito para sentar.\n\nAs que têm motor precisam de combustível: sentado, abra o inventário (E) e coloque carvão.",
+                "W/S controlam a potência; A/D viram. O biplano precisa de uma pista reta para decolar.",
+                "Upgrades (hélice melhorada, motor ecológico, reforço de casco...) vão no inventário da aeronave.\n\nBons voos!"
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_book_cover",
+              "title": "Manual do Planador",
+              "author": "Guilda dos Viajantes",
+              "generation": 0
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                "§lManual do Planador§r\n\nPlanadores evitam dano de queda e permitem atravessar vales e montanhas pelo ar.",
+                "§lPapel Reforçado§r\n\nCouro Papel Couro\nPapel Couro Papel\nCouro Papel Couro\n\nÉ a base de todos os planadores.",
+                "§lPlanador Básico§r\n\nPapelRef x3\nLinha Graveto Linha\nGraveto Pena Graveto\n\nPlanadores melhores usam a mesma forma com papel reforçado de outro material.",
+                "§lPapel de Ferro, Ouro, Diamante ou Netherite§r\n\nMaterial x3\nMaterial PapelRef Material\nMaterial x3",
+                "Netherite usa fragmentos de netherite.\n\nQuanto melhor o material, mais resistente o planador.",
+                "§lComo usar§r\n\nClique com o botão direito com o planador na mão para equipá-lo.\n\nPule de um lugar alto e aperte pular de novo no ar para abrir. Para soltar, aperte agachar.",
+                "§lUpgrade de Cobre§r (raios):\n\nBlocoCobre x3\nLinha PáraRaio Linha\nAmetista BlocoCobre Ametista",
+                "§lUpgrade do Nether§r (calor):\n\n- - -\nVaraBlaze PóBlaze VaraBlaze\nCercaNether ObsChorona CercaNether",
+                "Aplique o upgrade juntando planador + upgrade numa §lbigorna§r.\n\nCom o upgrade do Nether, o ar quente de fogueiras e lava faz o planador subir.\n\nBons voos!"
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

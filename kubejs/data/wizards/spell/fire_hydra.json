@@ -1,0 +1,327 @@
+{
+  "school": "spell_power:fire",
+  "range": 16.0,
+  "tier": 4,
+  "group": "fire_destruction",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_healing_release"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SUMMON",
+        "summon": {
+          "entity_type_id": "wizards:fire_hydra",
+          "behaviour": {
+            "is_attackable": false,
+            "existence_particles": [
+              {
+                "particles": [
+                  {
+                    "id": "spell_engine:area_effect_715",
+                    "appearance": {
+                      "color": 4281532671,
+                      "scale": 1.2,
+                      "facing": "GROUND"
+                    },
+                    "batch": {
+                      "count": 1.0,
+                      "shape": "SPHERE",
+                      "anchor": "GROUND"
+                    }
+                  }
+                ],
+                "interval_ticks": 22
+              },
+              {
+                "particles": [
+                  {
+                    "id": "spell_engine:flame_medium_a",
+                    "appearance": {},
+                    "batch": {
+                      "count": 1.0,
+                      "shape": "SPHERE",
+                      "anchor": "ENTITY",
+                      "vertical_origin": 0.1,
+                      "min_speed": 0.01,
+                      "max_speed": 0.06,
+                      "extent": 0.4
+                    }
+                  },
+                  {
+                    "id": "spell_engine:flame_medium_b",
+                    "appearance": {},
+                    "batch": {
+                      "count": 1.0,
+                      "shape": "SPHERE",
+                      "anchor": "ENTITY",
+                      "vertical_origin": 0.1,
+                      "min_speed": 0.01,
+                      "max_speed": 0.06,
+                      "extent": 0.4
+                    }
+                  },
+                  {
+                    "id": "spell_engine:flame_spark",
+                    "appearance": {},
+                    "batch": {
+                      "count": 1.0,
+                      "shape": "SPHERE",
+                      "anchor": "ENTITY",
+                      "vertical_origin": 0.1,
+                      "min_speed": 0.02,
+                      "max_speed": 0.08,
+                      "extent": 0.5
+                    }
+                  }
+                ],
+                "interval_ticks": 5
+              }
+            ],
+            "movement": {
+              "can_move": false,
+              "affected_by_gravity": false,
+              "is_pushable": false,
+              "collision": "NONE"
+            },
+            "targeting": {
+              "automatic_targeting": "HOSTILE",
+              "detection_range": {
+                "mode": "MAXIMUM_ACTION_RANGE"
+              }
+            },
+            "lifespan": {
+              "spawn_ticks": 20,
+              "active_seconds": 30,
+              "despawn_ticks": 20
+            },
+            "sounds": {
+              "spawn": {
+                "id": "wizards:fire_hydra_spawn"
+              },
+              "despawn": {
+                "id": "wizards:fire_hydra_despawn"
+              },
+              "ambient": {
+                "id": "wizards:fire_hydra_ambient"
+              }
+            },
+            "actions": [
+              {
+                "type": "SPELL_CAST",
+                "spell_cast": {
+                  "spell_id": "wizards:fireball"
+                }
+              }
+            ]
+          },
+          "attribute_scaling": {
+            "entries": [
+              {
+                "attribute_id": "minecraft:generic.max_health",
+                "modifiers": [
+                  {
+                    "attribute_id": "spell_power:fire",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 2.0
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.armor",
+                "modifiers": [
+                  {
+                    "attribute_id": "spell_power:fire",
+                    "operation": "ADD_VALUE",
+                    "base": 10.0,
+                    "coefficient": 0.1
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.attack_damage",
+                "modifiers": [
+                  {
+                    "attribute_id": "spell_power:fire",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.5
+                  }
+                ]
+              },
+              {
+                "attribute_id": "spell_power:fire",
+                "modifiers": [
+                  {
+                    "attribute_id": "spell_power:fire",
+                    "operation": "ADD_VALUE",
+                    "base": 1.5,
+                    "coefficient": 0.35
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.attack_knockback",
+                "modifiers": [
+                  {
+                    "attribute_id": "spell_power:fire",
+                    "operation": "ADD_VALUE",
+                    "base": 0.0,
+                    "coefficient": 0.1
+                  }
+                ]
+              },
+              {
+                "attribute_id": "minecraft:generic.knockback_resistance",
+                "modifiers": [
+                  {
+                    "attribute_id": "spell_power:fire",
+                    "operation": "ADD_VALUE",
+                    "base": 5.0,
+                    "coefficient": 0.05
+                  }
+                ]
+              }
+            ]
+          },
+          "placements": [
+            {
+              "location_offset_by_look": 1.0,
+              "apply_yaw": true
+            },
+            {
+              "delay_ticks": 5,
+              "location_offset_by_look": 1.0,
+              "location_yaw_offset": 90.0,
+              "apply_yaw": true
+            },
+            {
+              "delay_ticks": 10,
+              "location_offset_by_look": 1.0,
+              "location_yaw_offset": 270.0,
+              "apply_yaw": true
+            },
+            {
+              "delay_ticks": 15,
+              "location_offset_by_look": 1.0,
+              "location_yaw_offset": 180.0,
+              "apply_yaw": true
+            }
+          ],
+          "spawn_count": 3,
+          "group_placements": [
+            {
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 90.0,
+              "apply_yaw": true
+            },
+            {
+              "delay_ticks": 20,
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 270.0,
+              "apply_yaw": true
+            },
+            {
+              "delay_ticks": 40,
+              "location_offset_by_look": 3.0,
+              "apply_yaw": true
+            },
+            {
+              "delay_ticks": 60,
+              "location_offset_by_look": 3.0,
+              "location_yaw_offset": 180.0,
+              "apply_yaw": true
+            }
+          ],
+          "group_spawn_fx": {
+            "particles": [
+              {
+                "id": "spell_engine:flame_ground",
+                "appearance": {},
+                "batch": {
+                  "count": 4.0,
+                  "shape": "PILLAR",
+                  "anchor": "ENTITY",
+                  "vertical_origin": 0.1,
+                  "extent": 1.0
+                }
+              },
+              {
+                "id": "spell_engine:flame_medium_a",
+                "appearance": {},
+                "batch": {
+                  "count": 8.0,
+                  "shape": "PILLAR",
+                  "anchor": "ENTITY",
+                  "vertical_origin": 0.1,
+                  "min_speed": 0.02,
+                  "max_speed": 0.3,
+                  "extent": 1.0
+                }
+              },
+              {
+                "id": "spell_engine:flame_medium_b",
+                "appearance": {},
+                "batch": {
+                  "count": 8.0,
+                  "shape": "PILLAR",
+                  "anchor": "ENTITY",
+                  "vertical_origin": 0.1,
+                  "min_speed": 0.01,
+                  "max_speed": 0.35,
+                  "extent": 1.0
+                }
+              },
+              {
+                "id": "spell_engine:flame_spark",
+                "appearance": {},
+                "batch": {
+                  "count": 12.0,
+                  "shape": "PILLAR",
+                  "anchor": "ENTITY",
+                  "vertical_origin": 0.1,
+                  "min_speed": 0.05,
+                  "max_speed": 0.3,
+                  "extent": 1.0
+                }
+              },
+              {
+                "id": "campfire_cosy_smoke",
+                "appearance": {},
+                "batch": {
+                  "count": 3.0,
+                  "shape": "PILLAR",
+                  "anchor": "ENTITY",
+                  "vertical_origin": 0.1,
+                  "min_speed": 0.0125,
+                  "max_speed": 0.05,
+                  "extent": 1.0
+                }
+              }
+            ]
+          },
+          "group_spawn_sound": {
+            "id": "wizards:fire_hydra_group_spawn"
+          }
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 30.0,
+      "haste_affected": false
+    },
+    "item": {
+      "id": "runes:fire_stone"
+    }
+  }
+}

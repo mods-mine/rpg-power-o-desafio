@@ -1,0 +1,22 @@
+{
+  "school": "spell_power:witcher_melee",
+  "tier": 1,
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 5.0,
+      "animation": {
+        "id": "witcher_rpg:witcher_reflexes"
+      }
+    }
+  },
+  "cost": {
+    "cooldown": {
+      "duration": 15.0,
+      "proportional": true
+    }
+  }
+}

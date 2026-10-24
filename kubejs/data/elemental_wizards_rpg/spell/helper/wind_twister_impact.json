@@ -1,0 +1,51 @@
+{
+  "school": "spell_power:air",
+  "range": 20.0,
+  "tier": 4,
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.7,
+          "knockback": 1.2
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "mrpg_lib:wind_vacuum",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "SPHERE",
+              "anchor": "LAUNCH_POINT",
+              "alignment": "LOOK",
+              "min_speed": 0.1,
+              "max_speed": 1.0
+            }
+          },
+          {
+            "id": "gust",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.5,
+              "max_speed": 0.8
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "mrpg_lib:air_magic_impact1"
+      }
+    }
+  ]
+}

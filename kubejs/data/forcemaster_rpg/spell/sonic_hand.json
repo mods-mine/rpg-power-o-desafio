@@ -1,0 +1,140 @@
+{
+  "school": "spell_power:physical_melee",
+  "range": 1.5,
+  "range_mechanic": "MELEE",
+  "tier": 4,
+  "group": "brawl",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "forcemaster_rpg:sonic_hand_cast"
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "forcemaster_rpg:sonichand_vacuum",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY"
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "forcemaster_rpg:sonic_hand"
+    }
+  },
+  "target": {
+    "type": "NONE"
+  },
+  "deliver": {
+    "type": "MELEE",
+    "melee": {
+      "attacks": [
+        {
+          "attack_speed_multiplier": 1.8,
+          "delay": 0.1,
+          "hitbox": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.5
+          },
+          "animation": {
+            "id": "forcemaster_rpg:sonic_hand_cast"
+          },
+          "swing_sound": {
+            "id": "spell_engine:weapon_hammer_swing"
+          },
+          "impact_sound": {
+            "id": "forcemaster_rpg:knuckle_attack"
+          }
+        },
+        {
+          "attack_speed_multiplier": 1.8,
+          "delay": 0.2,
+          "hitbox": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.5
+          },
+          "animation": {
+            "id": "forcemaster_rpg:sonic_hand_cast"
+          },
+          "swing_sound": {
+            "id": "spell_engine:weapon_hammer_swing"
+          },
+          "impact_sound": {
+            "id": "forcemaster_rpg:knuckle_attack"
+          }
+        },
+        {
+          "attack_speed_multiplier": 1.8,
+          "delay": 0.3,
+          "hitbox": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.5
+          },
+          "animation": {
+            "id": "forcemaster_rpg:sonic_hand_cast"
+          },
+          "swing_sound": {
+            "id": "spell_engine:weapon_hammer_swing"
+          },
+          "impact_sound": {
+            "id": "forcemaster_rpg:knuckle_attack"
+          }
+        },
+        {
+          "attack_speed_multiplier": 1.8,
+          "delay": 0.4,
+          "hitbox": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.5
+          },
+          "animation": {
+            "id": "forcemaster_rpg:sonic_hand_cast"
+          },
+          "swing_sound": {
+            "id": "spell_engine:weapon_hammer_swing"
+          },
+          "impact_sound": {
+            "id": "forcemaster_rpg:knuckle_attack"
+          }
+        },
+        {
+          "attack_speed_multiplier": 1.8,
+          "delay": 0.5,
+          "hitbox": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 0.5
+          },
+          "animation": {
+            "id": "forcemaster_rpg:sonic_hand_cast"
+          },
+          "swing_sound": {
+            "id": "spell_engine:weapon_hammer_swing"
+          },
+          "impact_sound": {
+            "id": "forcemaster_rpg:knuckle_attack"
+          }
+        }
+      ]
+    }
+  },
+  "cost": {
+    "exhaust": 0.5,
+    "effect_id": "forcemaster_rpg:arcane_overflow",
+    "cooldown": {
+      "duration": 28.0
+    }
+  }
+}

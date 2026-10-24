@@ -1,0 +1,30 @@
+{
+  "title": "Maestria do Arqueiro",
+  "summary": "Só um verdadeiro Arqueiro sobrevive ao Nether. Derrote 8 blazes e 5 esqueletos wither e volte para receber a arma de mestre e o restante da sua armadura.",
+  "requires": {
+    "quests": [
+      "classes_rpg:arqueiro_2_provacao"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_blazes",
+      "kill": "minecraft:blaze",
+      "amount": 8
+    },
+    {
+      "id": "matar_esqueletos_wither",
+      "kill": "minecraft:wither_skeleton",
+      "amount": 5
+    }
+  ],
+  "rewards": {
+    "xp": 600,
+    "items": {
+      "archers:royal_longbow": 1,
+      "archers:ranger_armor_legs": 1,
+      "archers:ranger_armor_feet": 1,
+      "minecraft:emerald": 32
+    }
+  }
+}

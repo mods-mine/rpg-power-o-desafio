@@ -1,0 +1,149 @@
+{
+  "school": "spell_power:earth",
+  "range": 20.0,
+  "tier": 0,
+  "group": "primary",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 1.0,
+      "animation": {
+        "id": "mrpg_lib:two_handed_ground_channeling"
+      },
+      "sound": {
+        "id": "mrpg_lib:earth_magic_cast1",
+        "volume": 0.5
+      },
+      "particles": [
+        {
+          "id": "mrpg_lib:stone_particle",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.01,
+            "max_speed": 0.02
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_projectile_release"
+    },
+    "sound": {
+      "id": "minecraft:block.pointed_dripstone.fall",
+      "volume": 1.5
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 1.1
+      },
+      "projectile": {
+        "client_data": {
+          "travel_particles": [
+            {
+              "id": "mrpg_lib:stone_particle",
+              "appearance": {},
+              "batch": {
+                "count": 1.0,
+                "shape": "SPHERE",
+                "anchor": "ENTITY",
+                "alignment": "LOOK",
+                "min_speed": 0.1,
+                "max_speed": 0.2
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "fx": {
+                  "model_id": "elemental_wizards_rpg:spell_projectile/spell_stone",
+                  "scale": 0.5
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.7,
+          "knockback": 0.0
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "campfire_cosy_smoke",
+            "appearance": {},
+            "batch": {
+              "count": 3.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.005,
+              "max_speed": 0.008
+            }
+          },
+          {
+            "id": "mrpg_lib:stone_explosion",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.6,
+              "max_speed": 1.0
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "area_impact": {
+    "radius": 1.5,
+    "visuals": {
+      "particles": [
+        {
+          "id": "campfire_cosy_smoke",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "min_speed": 0.6,
+            "max_speed": 1.0
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "mrpg_lib:earth_magic_impact1",
+      "volume": 0.5
+    }
+  },
+  "cost": {
+    "item": {
+      "id": "mrpg_lib:terra_stone"
+    }
+  }
+}

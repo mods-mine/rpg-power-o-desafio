@@ -1,0 +1,162 @@
+{
+  "school": "spell_power:water",
+  "range": 32.0,
+  "tier": 2,
+  "group": "aqua_control",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 0.5,
+      "animation": {
+        "id": "spell_engine:one_handed_projectile_charge"
+      },
+      "sound": {
+        "id": "minecraft:block.bubble_column.whirlpool_ambient"
+      },
+      "particles": [
+        {
+          "id": "mrpg_lib:big_splash",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.01,
+            "max_speed": 0.05,
+            "extent": 0.5
+          }
+        },
+        {
+          "id": "mrpg_lib:water_circle",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "chance": 0.1,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.002,
+            "max_speed": 0.003
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_projectile_release"
+    },
+    "sound": {
+      "id": "mrpg_lib:water_release_1"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "extra_launch_count": 4,
+        "extra_launch_delay": 3
+      },
+      "projectile": {
+        "client_data": {
+          "travel_particles": [
+            {
+              "id": "mrpg_lib:bubble",
+              "appearance": {},
+              "batch": {
+                "count": 1.0,
+                "chance": 0.1,
+                "shape": "CIRCLE",
+                "anchor": "ENTITY",
+                "alignment": "LOOK",
+                "min_speed": 0.6,
+                "max_speed": 0.9
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "fx": {
+                  "model_id": "elemental_wizards_rpg:spell_projectile/big_bubble",
+                  "light_emission": "NONE",
+                  "scale": 0.7
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.4,
+          "knockback": 0.5
+        }
+      },
+      "sound": {
+        "id": "mrpg_lib:water_magic_impact1"
+      }
+    },
+    {
+      "action": {
+        "type": "HEAL",
+        "heal": {
+          "spell_power_coefficient": 0.1
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "mrpg_lib:water_heal",
+            "appearance": {},
+            "batch": {
+              "count": 10.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.05,
+              "max_speed": 0.1
+            }
+          },
+          {
+            "id": "mrpg_lib:water_circle",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "min_speed": 0.2,
+              "max_speed": 1.0
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "spell_engine:generic_healing_impact_2",
+        "volume": 1.2
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.2,
+    "cooldown": {
+      "duration": 10.0
+    },
+    "item": {
+      "id": "mrpg_lib:aqua_stone"
+    }
+  }
+}

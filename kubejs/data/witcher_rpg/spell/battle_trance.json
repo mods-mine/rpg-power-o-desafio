@@ -1,0 +1,32 @@
+{
+  "school": "spell_power:witcher_melee",
+  "range": 0.0,
+  "tier": 3,
+  "group": "mutant",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "movement_speed": 0.75
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "witcher_rpg:battle_trance",
+          "duration": 5.0
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.8,
+    "cooldown": {
+      "duration": 30.0
+    }
+  }
+}

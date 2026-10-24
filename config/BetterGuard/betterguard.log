@@ -1,0 +1,1418 @@
+[2026-10-17 04:07:42] SCAN Rattones deep=false clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:42] SUSPECT Rattones forbidden=mod:xaerominimap mods=0
+[2026-10-17 04:07:43] SCAN Rattones deep=false clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=false clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=false clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=false clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=false clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=false clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:43] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:45] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:07:45] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:08:15] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:08:15] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:08:45] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:08:45] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:09:15] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:09:15] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:09:45] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:09:45] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:10:15] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:10:15] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:10:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:10:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:11:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:11:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:11:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:11:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:12:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:12:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:12:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:12:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:13:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:13:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:13:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:13:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:14:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:14:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:14:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:14:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:15:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:15:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:15:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:15:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:16:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:16:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:16:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:16:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:17:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:17:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=36 hSpeed=0.00
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=37 hSpeed=0.00
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=38 hSpeed=0.00
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=39 hSpeed=0.00
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=40 hSpeed=0.00
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=41 hSpeed=0.00
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=42 hSpeed=0.00
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=43 hSpeed=0.00
+[2026-10-17 04:17:30] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=44 hSpeed=0.00
+[2026-10-17 04:17:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:17:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:18:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:18:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:18:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:18:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:19:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:19:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:19:38] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=34 hSpeed=0.00
+[2026-10-17 04:19:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:19:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:20:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:20:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:20:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:20:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:21:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:21:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:21:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:21:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:22:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:22:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:22:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:22:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:23:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:23:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:23:35] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=34 hSpeed=0.00
+[2026-10-17 04:23:35] FLAG Rattones check=phase weight=2 detail=inside blocks ticks=35 hSpeed=0.00
+[2026-10-17 04:23:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:23:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:24:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:24:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:24:47] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:24:47] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 04:25:17] SCAN Rattones deep=true clean=false hit=mod:xaerominimap mods=301 channels=300
+[2026-10-17 04:25:17] SUSPECT Rattones forbidden=mod:xaerominimap mods=301
+[2026-10-17 11:31:24] SCAN Rattones deep=false clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=0
+[2026-10-17 11:31:24] SCAN Rattones deep=false clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=false clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=false clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=false clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=false clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=false clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:31:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:32:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:32:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:32:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:32:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:33:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:33:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:38:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:38:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:38:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:38:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:39:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:39:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:39:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:39:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:40:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:40:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:40:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:40:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:41:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:41:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:41:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:41:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:41:48] FLAG Rattones check=killaura weight=7 detail=killaura cps=5 multi=5 still=347 stddev=181.7
+[2026-10-17 11:42:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:42:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:42:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:42:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:43:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:43:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:43:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:43:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:44:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:44:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:44:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:44:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:45:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:45:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:45:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:45:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:46:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:46:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:46:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:46:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:47:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:47:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:47:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:47:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:48:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:48:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:48:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:48:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:49:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:49:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:49:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:49:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:50:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:50:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:50:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:50:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:51:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:51:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:51:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:51:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:52:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:52:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:52:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:52:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:53:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:53:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:53:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:53:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:54:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:54:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:54:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:54:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:55:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:55:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:55:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:55:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:56:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:56:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:56:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:56:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:57:02] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:57:02] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 11:57:32] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=305 channels=304
+[2026-10-17 11:57:32] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=305
+[2026-10-17 12:03:01] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 12:03:01] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 12:03:31] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 12:03:31] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 12:04:01] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 12:04:01] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:00:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:00:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:00:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:00:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:01:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:01:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:01:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:01:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:02:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:02:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:02:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:02:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:03:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:03:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:03:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:03:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:04:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:04:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:04:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:04:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:05:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:05:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:05:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:05:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:06:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:06:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:06:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:06:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:07:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:07:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:07:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:07:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:08:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:08:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:08:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:08:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:09:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:09:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:09:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:09:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:10:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:10:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:10:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:10:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:11:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:11:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:11:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:11:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:12:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:12:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:12:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:12:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-17 13:13:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=358 channels=357
+[2026-10-17 13:13:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=358
+[2026-10-23 02:56:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 02:56:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 02:56:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 02:56:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 02:57:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 02:57:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 02:57:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 02:57:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 02:58:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 02:58:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 02:58:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 02:58:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 02:59:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 02:59:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 02:59:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 02:59:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:00:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:00:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:00:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:00:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:01:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:01:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:01:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:01:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:02:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:02:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:02:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:02:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:03:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:03:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:03:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:03:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:04:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:04:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:04:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:04:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:05:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:05:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:05:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:05:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:06:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:06:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:06:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:06:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:07:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:07:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:07:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:07:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:08:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:08:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:08:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:08:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:09:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:09:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:09:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:09:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:10:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:10:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:10:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:10:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:11:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:11:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:11:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:11:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:12:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:12:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:12:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:12:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:13:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:13:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:13:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:13:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:14:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:14:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:14:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:14:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:15:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:15:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:15:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:15:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:16:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:16:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:16:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:16:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:17:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:17:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:17:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:17:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:18:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:18:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:18:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:18:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:19:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:19:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:19:48] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:19:48] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:20:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:20:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:20:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:20:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:21:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:21:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:21:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:21:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:22:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:22:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:22:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:22:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:22:57] FLAG Rattones check=killaura weight=7 detail=killaura cps=6 multi=5 still=352 stddev=153.5
+[2026-10-23 03:22:57] FLAG Rattones check=killaura weight=7 detail=killaura cps=7 multi=6 still=366 stddev=153.3
+[2026-10-23 03:22:57] FLAG Rattones check=killaura weight=7 detail=killaura cps=8 multi=7 still=366 stddev=168.0
+[2026-10-23 03:22:58] FLAG Rattones check=killaura weight=7 detail=killaura cps=4 multi=4 still=385 stddev=182.7
+[2026-10-23 03:22:58] FLAG Rattones check=killaura weight=7 detail=killaura cps=5 multi=5 still=8 stddev=183.3
+[2026-10-23 03:22:58] FLAG Rattones check=killaura weight=5 detail=killaura cps=6 multi=6 still=8 stddev=191.7
+[2026-10-23 03:23:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:23:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:23:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:23:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:24:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:24:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:24:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:24:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:25:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:25:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:25:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:25:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:26:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:26:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:26:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:26:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:27:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:27:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:27:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:27:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:28:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:28:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:28:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:28:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:29:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:29:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:29:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:29:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:30:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:30:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:30:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:30:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:31:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:31:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:31:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:31:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:32:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:32:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:32:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:32:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:33:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:33:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:33:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:33:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:34:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:34:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:34:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:34:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:35:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:35:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:35:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:35:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:36:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:36:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:36:40] FLAG Rattones check=killaura weight=7 detail=killaura cps=5 multi=4 still=304 stddev=109.4
+[2026-10-23 03:36:41] FLAG Rattones check=killaura weight=7 detail=killaura cps=4 multi=4 still=7 stddev=133.3
+[2026-10-23 03:36:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:36:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:37:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:37:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:37:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:37:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:38:04] FLAG Rattones check=killaura weight=1 detail=killaura cps=4 multi=4 still=11 stddev=126.3
+[2026-10-23 03:38:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:38:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:38:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:38:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:39:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:39:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:39:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:39:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:40:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:40:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:40:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:40:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:41:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:41:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:41:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:41:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:42:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:42:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:42:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:42:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:43:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:43:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:43:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:43:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:44:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:44:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:44:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:44:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:45:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:45:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:45:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:45:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:46:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:46:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:46:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:46:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:47:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:47:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:47:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:47:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:48:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:48:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:48:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:48:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:49:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:49:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:49:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:49:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:50:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:50:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:50:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:50:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:51:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:51:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:51:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:51:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:52:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:52:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:52:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:52:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:53:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:53:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:53:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:53:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:54:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:54:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:54:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:54:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:55:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:55:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:55:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:55:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:56:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:56:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:56:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:56:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:57:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:57:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:57:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:57:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 03:58:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 03:58:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:07:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:07:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:08:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:08:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:08:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:08:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:09:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:09:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:09:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:09:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:10:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:10:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:10:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:10:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:11:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:11:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:11:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:11:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:12:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:12:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:12:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:12:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:13:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:13:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:13:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:13:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:14:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:14:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:14:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:14:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:15:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:15:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:15:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:15:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:16:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:16:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:16:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:16:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:17:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:17:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:17:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:17:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:18:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:18:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:18:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:18:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:19:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:19:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:23:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:23:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:24:07] FLAG Rattones check=reach weight=12 detail=distance=4.60
+[2026-10-23 14:24:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:24:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:24:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:24:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:25:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:25:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:25:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:25:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:26:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:26:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:26:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:26:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:27:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:27:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:27:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:27:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:28:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:28:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:28:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:28:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:29:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:29:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:29:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:29:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:30:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:30:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:30:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:30:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:31:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:31:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:31:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:31:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:32:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:32:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:32:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:32:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:33:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:33:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:33:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:33:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:34:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:34:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:34:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:34:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:35:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:35:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:36:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:36:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 14:36:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 14:36:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:42:48] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:42:48] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:43:18] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:43:18] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:43:48] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:43:48] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:44:18] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:44:18] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:44:48] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:44:48] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:45:18] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:45:18] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:45:51] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:45:51] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:46:21] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:46:21] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:46:51] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 15:46:51] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 15:54:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:54:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:54:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:54:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:55:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:55:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:55:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:55:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:56:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:56:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:56:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:56:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:57:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:57:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:57:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:57:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:58:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:58:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:58:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:58:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:59:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:59:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 15:59:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 15:59:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:00:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:00:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:00:17] FLAG Rattones check=killaura weight=7 detail=killaura cps=5 multi=5 still=34 stddev=140.7
+[2026-10-23 16:00:17] FLAG Rattones check=killaura weight=7 detail=killaura cps=6 multi=6 still=34 stddev=156.3
+[2026-10-23 16:00:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:00:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:00:42] FLAG Rattones check=killaura weight=7 detail=killaura cps=4 multi=4 still=55 stddev=142.1
+[2026-10-23 16:00:43] FLAG Rattones check=killaura weight=7 detail=killaura cps=5 multi=5 still=67 stddev=142.2
+[2026-10-23 16:00:43] FLAG Rattones check=killaura weight=7 detail=killaura cps=6 multi=6 still=67 stddev=151.7
+[2026-10-23 16:00:44] FLAG Rattones check=killaura weight=5 detail=killaura cps=5 multi=4 still=22 stddev=163.9
+[2026-10-23 16:01:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:01:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:01:04] FLAG Rattones check=killaura weight=1 detail=killaura cps=4 multi=4 still=73 stddev=173.3
+[2026-10-23 16:01:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:01:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:02:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:02:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:02:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:02:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:03:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:03:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:03:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:03:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:03:37] FLAG Rattones check=killaura weight=2 detail=killaura cps=4 multi=4 still=120 stddev=69.0
+[2026-10-23 16:04:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:04:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:04:14] FLAG Rattones check=killaura weight=1 detail=killaura cps=4 multi=4 still=27 stddev=188.4
+[2026-10-23 16:04:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:04:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:05:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:05:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:05:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:05:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:06:04] FLAG Rattones check=killaura weight=1 detail=killaura cps=4 multi=4 still=146 stddev=152.2
+[2026-10-23 16:06:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:06:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:06:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:06:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:07:04] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:07:04] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:07:34] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=477 channels=476
+[2026-10-23 16:07:34] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=477
+[2026-10-23 16:27:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:27:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:28:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:28:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:28:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:28:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:29:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:29:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:29:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:29:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:32:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:32:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:32:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:32:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:33:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:33:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:33:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:33:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:34:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:34:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:34:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:34:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:35:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:35:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:35:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:35:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:36:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:36:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:36:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:36:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:37:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:37:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:37:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:37:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:38:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:38:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:38:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:38:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:39:23] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:39:23] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 16:56:43] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 16:56:43] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:04:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:04:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:13:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:13:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:31:09] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:31:10] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:34:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:34:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:35:08] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:35:08] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:35:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:35:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:38:49] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:38:49] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:39:19] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:39:19] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:40:27] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:40:27] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:40:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:40:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:41:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:41:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:42:03] FLAG Kowalski_Luca check=reach weight=12 detail=distance=7.48
+[2026-10-23 17:42:27] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:42:27] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:43:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:43:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:44:27] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:44:27] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:44:35] FLAG Kowalski_Luca check=reach weight=12 detail=distance=4.43
+[2026-10-23 17:44:35] FLAG Kowalski_Luca check=reach weight=12 detail=distance=8.19
+[2026-10-23 17:44:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:44:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:45:27] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:45:27] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:45:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:45:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:46:27] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:46:27] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:46:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:46:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:47:27] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:47:27] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:47:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:47:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:48:27] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:48:27] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:48:57] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=454 channels=453
+[2026-10-23 17:48:57] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=454
+[2026-10-23 17:54:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 17:54:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 17:56:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 17:56:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 17:57:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 17:57:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 17:57:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 17:57:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 17:58:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 17:58:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 17:58:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 17:58:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 17:59:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 17:59:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 17:59:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 17:59:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:01:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:01:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:01:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:01:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:02:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:02:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:02:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:02:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:03:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:03:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:03:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:03:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:04:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:04:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:04:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:04:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:05:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:05:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:05:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:05:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:06:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:06:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:06:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:06:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:07:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:07:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:08:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:08:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:08:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:08:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:09:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:09:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:09:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:09:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:11:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:11:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:11:39] FLAG Kowalski_Luca check=reach weight=12 detail=distance=4.35
+[2026-10-23 18:11:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:11:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:12:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:12:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:12:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:12:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:12:51] FLAG Kowalski_Luca check=reach weight=12 detail=distance=6.37
+[2026-10-23 18:13:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:13:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:13:50] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:13:50] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 18:14:20] SCAN Kowalski_Luca deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 18:14:20] SUSPECT Kowalski_Luca forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:39:52] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:39:52] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:40:22] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:40:22] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:40:52] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:40:52] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:41:22] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:41:22] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:41:52] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:41:52] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:42:22] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:42:22] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:42:52] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:42:52] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:43:22] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:43:22] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:43:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:43:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:44:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:44:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:44:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:44:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:45:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:45:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:45:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:45:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:46:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:46:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:46:25] FLAG Rattones check=reach weight=12 detail=distance=4.33
+[2026-10-23 19:46:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:46:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:47:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:47:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:47:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:47:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:48:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:48:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:48:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:48:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:49:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:49:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:49:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:49:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:50:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:50:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:50:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:50:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:51:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:51:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:51:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:51:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:52:25] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:52:25] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:52:55] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:52:55] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:53:27] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:53:27] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:53:57] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:53:57] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:54:29] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:54:29] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:54:59] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:54:59] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:55:29] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:55:29] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:55:59] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:55:59] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:56:29] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:56:29] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:56:59] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:56:59] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:57:29] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:57:29] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:57:59] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:57:59] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:58:29] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:58:29] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:58:59] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:58:59] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 19:59:35] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 19:59:35] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 20:00:05] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 20:00:05] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-23 20:00:39] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-23 20:00:39] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:17:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:17:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:18:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:18:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:18:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:18:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:19:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:19:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:19:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:19:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:20:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:20:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:20:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:20:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:21:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:21:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:21:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:21:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:22:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:22:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:22:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:22:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:23:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:23:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:23:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:23:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:24:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:24:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:24:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:24:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:25:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:25:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:25:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:25:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:26:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:26:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:26:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:26:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:27:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:27:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:27:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:27:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:28:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:28:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:28:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:28:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:29:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:29:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:29:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:29:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:30:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:30:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:30:54] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:30:54] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:31:24] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:31:24] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:31:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:31:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:32:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:32:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:32:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:32:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:33:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:33:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:33:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:33:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:34:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:34:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:34:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:34:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:35:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:35:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:35:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:35:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:36:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:36:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:36:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:36:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:37:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:37:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:37:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:37:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:38:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:38:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:41:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:41:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:41:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:41:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:42:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:42:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:42:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:42:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:43:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:43:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:43:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:43:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:44:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:44:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:44:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:44:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:45:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:45:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:45:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:45:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:46:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:46:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:46:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:46:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:47:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:47:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:47:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:47:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:48:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:48:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:48:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:48:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:49:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:49:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:49:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:49:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:50:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:50:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:50:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:50:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:51:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:51:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:51:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:51:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:52:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:52:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:52:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:52:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:53:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:53:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:53:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:53:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:54:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:54:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:54:28] FLAG Rattones check=nofall weight=4 detail=drop=10.0
+[2026-10-24 02:54:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:54:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:55:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:55:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:55:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:55:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:56:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:56:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:56:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:56:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:57:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:57:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:57:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:57:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:58:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:58:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:58:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:58:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:59:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:59:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 02:59:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 02:59:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:00:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:00:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:00:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:00:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:01:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:01:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:01:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:01:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:02:19] FLAG Rattones check=nofall weight=4 detail=drop=77.6
+[2026-10-24 03:02:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:02:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:02:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:02:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:03:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:03:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:03:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:03:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:04:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:04:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:04:56] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:04:56] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 03:05:26] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=446 channels=445
+[2026-10-24 03:05:26] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=446
+[2026-10-24 11:49:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:49:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:49:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:49:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:50:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:50:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:50:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:50:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:51:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:51:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:51:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:51:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:52:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:52:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:52:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:52:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:53:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:53:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:53:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:53:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:54:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:54:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:54:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:54:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:55:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:55:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:55:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:55:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:56:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:56:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:56:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:56:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:57:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:57:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:57:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:57:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:58:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:58:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:58:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:58:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:59:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:59:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 11:59:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 11:59:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:00:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:00:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:00:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:00:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:01:08] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:01:08] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:01:38] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:01:38] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:02:13] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:02:13] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:08:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:08:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:09:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:09:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:09:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:09:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:10:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:10:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:10:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:10:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:11:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:11:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:11:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:11:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:12:17] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:12:17] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:12:47] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:12:47] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:16:53] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=435 channels=434
+[2026-10-24 12:16:53] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=435
+[2026-10-24 12:20:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:20:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:21:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:21:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:21:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:21:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:22:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:22:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:22:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:22:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:23:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:23:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:23:30] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:23:30] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:24:00] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:24:00] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:24:45] FLAG Rattones check=nofall weight=4 detail=drop=16.8
+[2026-10-24 12:25:17] FLAG Rattones check=nofall weight=4 detail=drop=8.0
+[2026-10-24 12:25:41] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:25:41] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:26:11] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:26:11] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:26:41] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:26:41] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:27:11] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:27:11] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:27:41] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:27:41] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:28:11] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:28:11] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:28:41] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:28:41] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:29:11] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:29:11] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:29:41] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:29:41] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:30:11] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:30:11] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:30:41] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:30:41] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:31:41] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:31:41] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:58:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:58:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:59:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:59:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 12:59:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 12:59:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:00:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:00:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:00:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:00:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:02:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:02:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:02:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:02:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:03:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:03:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:03:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:03:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:04:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:04:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:04:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:04:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:05:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:05:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:05:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:05:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:06:01] FLAG Rattones check=reach weight=12 detail=distance=4.64
+[2026-10-24 13:06:04] FLAG Rattones check=reach weight=12 detail=distance=4.36
+[2026-10-24 13:06:04] FLAG Rattones check=reach weight=12 detail=distance=5.14
+[2026-10-24 13:39:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:39:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:40:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:40:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:40:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:40:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:41:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:41:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:41:36] FLAG Rattones check=reach weight=6 detail=distance=4.64
+[2026-10-24 13:41:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:41:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:42:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:42:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:42:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:42:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:43:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:43:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:43:28] FLAG Rattones check=killaura weight=7 detail=killaura cps=6 multi=5 still=1072 stddev=106.8
+[2026-10-24 13:43:29] FLAG Rattones check=killaura weight=7 detail=killaura cps=4 multi=4 still=1086 stddev=120.1
+[2026-10-24 13:43:29] FLAG Rattones check=killaura weight=7 detail=killaura cps=5 multi=5 still=9 stddev=120.2
+[2026-10-24 13:43:29] FLAG Rattones check=killaura weight=7 detail=killaura cps=6 multi=6 still=9 stddev=132.3
+[2026-10-24 13:43:29] FLAG Rattones check=killaura weight=7 detail=killaura cps=7 multi=7 still=17 stddev=132.4
+[2026-10-24 13:43:29] FLAG Rattones check=killaura weight=5 detail=killaura cps=8 multi=8 still=17 stddev=142.5
+[2026-10-24 13:43:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:43:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:44:16] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:44:16] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:44:35] FLAG Rattones check=reach weight=3 detail=distance=4.84
+[2026-10-24 13:44:46] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:44:46] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:45:18] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:45:18] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:45:41] FLAG Rattones check=killaura weight=2 detail=killaura cps=4 multi=4 still=36 stddev=130.5
+[2026-10-24 13:45:46] FLAG Rattones check=reach weight=1 detail=distance=4.68
+[2026-10-24 13:45:48] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:45:48] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:46:18] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:46:18] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:46:48] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:46:48] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:47:18] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:47:18] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:47:48] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:47:48] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 13:48:18] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=443 channels=442
+[2026-10-24 13:48:18] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=443
+[2026-10-24 14:31:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:31:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:32:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:32:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:32:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:32:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:33:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:33:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:33:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:33:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:34:27] FLAG Rattones check=killaura weight=7 detail=killaura cps=5 multi=5 still=31 stddev=110.9
+[2026-10-24 14:34:27] FLAG Rattones check=killaura weight=7 detail=killaura cps=6 multi=6 still=31 stddev=122.2
+[2026-10-24 14:34:27] FLAG Rattones check=killaura weight=7 detail=killaura cps=7 multi=7 still=31 stddev=132.1
+[2026-10-24 14:34:27] FLAG Rattones check=killaura weight=7 detail=killaura cps=8 multi=8 still=31 stddev=138.8
+[2026-10-24 14:34:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:34:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:34:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:34:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:35:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:35:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:35:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:35:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:36:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:36:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:36:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:36:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:37:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:37:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:37:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:37:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:38:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:38:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:38:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:38:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:39:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:39:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:39:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:39:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:40:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:40:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:40:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:40:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:41:10] FLAG Rattones check=killaura weight=7 detail=killaura cps=5 multi=4 still=9 stddev=116.2
+[2026-10-24 14:41:10] FLAG Rattones check=killaura weight=7 detail=killaura cps=6 multi=5 still=9 stddev=130.4
+[2026-10-24 14:41:11] FLAG Rattones check=killaura weight=5 detail=killaura cps=7 multi=6 still=5 stddev=130.4
+[2026-10-24 14:41:23] FLAG Rattones check=reach weight=12 detail=distance=4.38
+[2026-10-24 14:41:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:41:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:41:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:41:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:42:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:42:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:42:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:42:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:43:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:43:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:43:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:43:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:44:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:44:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:44:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:44:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:45:09] FLAG Rattones check=killaura weight=4 detail=killaura cps=4 multi=4 still=311 stddev=112.6
+[2026-10-24 14:45:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:45:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:45:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:45:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:46:00] FLAG Rattones check=nofall weight=4 detail=drop=115.9
+[2026-10-24 14:46:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:46:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:46:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:46:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:47:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:47:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:47:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:47:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:48:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:48:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:48:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:48:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:49:01] FLAG Rattones check=nofall weight=4 detail=drop=120.7
+[2026-10-24 14:49:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:49:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:49:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:49:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:50:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:50:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:50:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:50:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:51:06] FLAG Rattones check=nofall weight=4 detail=drop=41.9
+[2026-10-24 14:51:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:51:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:51:58] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:51:58] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452
+[2026-10-24 14:52:28] SCAN Rattones deep=true clean=false hit=mod:jei:cheat_permission mods=452 channels=451
+[2026-10-24 14:52:28] SUSPECT Rattones forbidden=mod:jei:cheat_permission mods=452

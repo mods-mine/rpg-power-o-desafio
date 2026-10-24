@@ -1,0 +1,29 @@
+{
+  "title": "A Lenda Canina",
+  "summary": "Só os maiores adestradores levam seus cães ao Nether e voltam. Derrote 6 blazes e 4 ghasts e seu companheiro se tornará uma lenda.",
+  "requires": {
+    "quests": [
+      "classes_rpg:adestrador_2_faro_afiado"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_blazes",
+      "kill": "minecraft:blaze",
+      "amount": 6
+    },
+    {
+      "id": "matar_ghasts",
+      "kill": "minecraft:ghast",
+      "amount": 4
+    }
+  ],
+  "rewards": {
+    "xp": 600,
+    "items": {
+      "doggytalents:master_treat": 2,
+      "doggytalents:radio_collar": 1,
+      "doggytalents:canine_tracker": 1
+    }
+  }
+}

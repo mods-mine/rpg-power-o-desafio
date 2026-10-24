@@ -1,0 +1,18 @@
+# Whitelist: only the modpack's own content is tracked.
+# Server runtime, world, player data, third-party jars and the RPG Power project stay out.
+/*
+!/.gitignore
+!/README.md
+!/CHANGELOG.md
+!/icon.png
+!/r.mrpack
+!/config/
+!/defaultconfigs/
+!/kubejs/
+!/automodpack/
+/automodpack/*
+!/automodpack/automodpack-server.json
+
+# local backups
+*.old-root/
+*.bak

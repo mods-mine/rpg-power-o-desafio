@@ -1,0 +1,147 @@
+{
+  "school": "spell_power:arcane",
+  "range": 5.0,
+  "tier": 1,
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 10.0,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 10
+      },
+      "animation": {
+        "id": "bards_rpg:sing_channel",
+        "overrides": [
+          {
+            "equipment": {
+              "slot": "MAINHAND",
+              "item": "#bards_rpg:lyres"
+            },
+            "id": "bards_rpg:lyre_channel"
+          },
+          {
+            "equipment": {
+              "slot": "MAINHAND",
+              "item": "#bards_rpg:lutes"
+            },
+            "id": "bards_rpg:lute_channel"
+          },
+          {
+            "equipment": {
+              "slot": "MAINHAND",
+              "item": "#bards_rpg:harp_crossbows"
+            },
+            "id": "bards_rpg:harp_channel"
+          }
+        ]
+      },
+      "movement_speed": 1.5,
+      "sound": {
+        "id": "bards_rpg:canticle_of_the_tides",
+        "volume": 0.7
+      },
+      "particles": [
+        {
+          "id": "mrpg_lib:music_note",
+          "appearance": {
+            "color": 16777215
+          },
+          "batch": {
+            "count": 1.0,
+            "chance": 0.5,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.4,
+            "max_speed": 0.5,
+            "extent": 2.0,
+            "width_factor": 2.0
+          }
+        }
+      ]
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 1.5,
+      "include_caster": true
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.35
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spell",
+            "appearance": {
+              "color": 16777215,
+              "motion": "BURST"
+            },
+            "batch": {
+              "count": 10.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.5,
+              "max_speed": 0.5
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "bards_rpg:bard_impact",
+        "volume": 0.6
+      }
+    },
+    {
+      "school": "spell_power:healing",
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "bards_rpg:canticle_of_the_tides",
+          "duration": 9.0,
+          "amplifier": 1,
+          "amplifier_cap": 5,
+          "amplifier_cap_power_multiplier": 0.15,
+          "apply_mode": "ADD"
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "mrpg_lib:music_note",
+            "appearance": {
+              "color": 16777215
+            },
+            "batch": {
+              "count": 1.0,
+              "chance": 0.5,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.6,
+              "max_speed": 0.8,
+              "extent": 0.5
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.2,
+    "cooldown": {
+      "group": "weapon",
+      "duration": 5.0
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Maestria do Forcemaster",
+  "summary": "Só um verdadeiro Forcemaster sobrevive ao Nether. Derrote 8 blazes e 5 esqueletos wither e volte para receber a arma de mestre e o restante da sua armadura.",
+  "requires": {
+    "quests": [
+      "classes_rpg:forcemaster_2_provacao"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_blazes",
+      "kill": "minecraft:blaze",
+      "amount": 8
+    },
+    {
+      "id": "matar_esqueletos_wither",
+      "kill": "minecraft:wither_skeleton",
+      "amount": 5
+    }
+  ],
+  "rewards": {
+    "xp": 600,
+    "items": {
+      "forcemaster_rpg:diamond_knuckle": 1,
+      "forcemaster_rpg:phasleb_legs": 1,
+      "forcemaster_rpg:phasleb_feet": 1,
+      "minecraft:emerald": 32
+    }
+  }
+}

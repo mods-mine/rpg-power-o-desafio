@@ -1,0 +1,64 @@
+{
+  "school": "spell_power:earth",
+  "range": 12.0,
+  "tier": 3,
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.8,
+          "knockback": 0.5
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "campfire_cosy_smoke",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "chance": 0.25,
+              "shape": "PILLAR",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "min_speed": 0.0001,
+              "max_speed": 0.0008
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "block.pointed_dripstone.break"
+      }
+    },
+    {
+      "target_modifiers": [
+        {
+          "conditions": [
+            {
+              "entity_type": "#c:bosses"
+            }
+          ],
+          "execute": "DENY"
+        }
+      ],
+      "action": {
+        "type": "VELOCITY",
+        "velocity": {
+          "push": {
+            "x": 0.0,
+            "y": 0.15,
+            "z": 0.0
+          },
+          "power_coefficient": 0.05
+        }
+      }
+    }
+  ]
+}

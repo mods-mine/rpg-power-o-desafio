@@ -1,0 +1,95 @@
+{
+  "school": "spell_power:rage_melee",
+  "range": 0.5,
+  "range_mechanic": "MELEE",
+  "tier": 4,
+  "group": "brute",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "release": {
+    "animation": {
+      "id": "berserker_rpg:northerners_guillotine"
+    },
+    "sound": {
+      "id": "berserker_rpg:northerners_guillotine_cast"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "required": true
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "CUSTOM",
+        "custom": {
+          "intent": "HARMFUL",
+          "handler": "berserker_rpg:northerners_guillotine"
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 3208659199
+            },
+            "batch": {
+              "count": 20.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "min_speed": 0.3,
+              "max_speed": 0.3,
+              "pre_travel": 1.0
+            }
+          },
+          {
+            "id": "spell_engine:smoke_large",
+            "appearance": {
+              "color": 3208659199
+            },
+            "batch": {
+              "count": 20.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "min_speed": 0.45,
+              "max_speed": 0.45,
+              "pre_travel": 3.0
+            }
+          },
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 3208659199
+            },
+            "batch": {
+              "count": 20.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "vertical_origin": 0.1,
+              "min_speed": 0.6,
+              "max_speed": 0.6,
+              "pre_travel": 5.0
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "berserker_rpg:northerners_guillotine_impact"
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 1.0,
+    "cooldown": {
+      "duration": 35.0
+    }
+  }
+}

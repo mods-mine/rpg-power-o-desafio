@@ -1,0 +1,193 @@
+{
+  "school": "spell_power:fire",
+  "range": 16.0,
+  "tier": 2,
+  "group": "fire_destruction",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 1.0,
+      "type": "CHARGE",
+      "charge": {
+        "output_scaling": 0.5,
+        "bonus": {
+          "projectile_scale_multiply": 1.0
+        }
+      },
+      "animation": {
+        "id": "spell_engine:one_handed_projectile_charge_3"
+      },
+      "sound": {
+        "id": "spell_engine:generic_fire_casting",
+        "randomness": 0.0
+      },
+      "particles": [
+        {
+          "id": "spell_engine:flame",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.05,
+            "max_speed": 0.1,
+            "width_factor": 2.0
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_projectile_release_3"
+    },
+    "sound": {
+      "id": "wizards:fire_slash_release"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {}
+  },
+  "deliver": {
+    "type": "PROJECTILE",
+    "projectile": {
+      "launch_properties": {
+        "velocity": 0.5
+      },
+      "projectile": {
+        "travel_sound_interval": 15,
+        "travel_sound": {
+          "id": "wizards:fire_slash_travel"
+        },
+        "perks": {
+          "pierce": 9999
+        },
+        "hitbox": {
+          "width": 3.0,
+          "height": 0.25,
+          "length": 1.0
+        },
+        "client_data": {
+          "light_level": 12,
+          "travel_particles": [
+            {
+              "id": "spell_engine:flame_medium_b",
+              "appearance": {},
+              "batch": {
+                "count": 6.0,
+                "shape": "CIRCLE",
+                "anchor": "ENTITY",
+                "min_speed": 0.15,
+                "max_speed": 0.2
+              }
+            },
+            {
+              "id": "smoke",
+              "appearance": {},
+              "batch": {
+                "count": 3.0,
+                "shape": "CIRCLE",
+                "anchor": "ENTITY",
+                "min_speed": 0.15,
+                "max_speed": 0.2
+              }
+            }
+          ],
+          "composite_model": {
+            "models": [
+              {
+                "rotate_degrees_per_tick": 0.0,
+                "fx": {
+                  "model_id": "wizards:spell_projectile/fire_slash",
+                  "light_emission": "GLOW_TRANSLUCENT",
+                  "scale": 0.6,
+                  "initial": [
+                    {
+                      "operation": "scale",
+                      "x": -1.0,
+                      "y": -1.0,
+                      "z": -1.0
+                    }
+                  ],
+                  "animations": [
+                    {
+                      "start": 0,
+                      "end": 20,
+                      "easing": "EASE_OUT_CUBIC",
+                      "operation": "scale",
+                      "x": 1.0,
+                      "y": 1.0,
+                      "z": 1.0
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.75,
+          "knockback": 0.5
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:flame",
+            "appearance": {},
+            "batch": {
+              "count": 3.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "alignment": "LOOK",
+              "max_speed": 0.1
+            }
+          },
+          {
+            "id": "smoke",
+            "appearance": {},
+            "batch": {
+              "count": 1.0,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "alignment": "LOOK",
+              "max_speed": 0.1
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "wizards:fire_slash_impact"
+      }
+    },
+    {
+      "action": {
+        "type": "FIRE",
+        "fire": {
+          "duration": 3.0
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.2,
+    "cooldown": {
+      "duration": 8.0
+    },
+    "item": {
+      "id": "runes:fire_stone"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "school": "spell_power:witcher_melee",
+  "range": 0.5,
+  "range_mechanic": "MELEE",
+  "tier": 4,
+  "group": "mutant",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 2.0,
+      "type": "CHARGE",
+      "charge": {
+        "min_release_ratio": 0.1,
+        "output_scaling": 1.2,
+        "bonus": {
+          "range_add": 2.0
+        }
+      },
+      "animation": {
+        "id": "witcher_rpg:rend_cast"
+      },
+      "movement_speed": 0.0
+    }
+  },
+  "release": {
+    "visuals": {
+      "particles": [
+        {
+          "id": "crimson_spore",
+          "appearance": {},
+          "batch": {
+            "count": 20.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "min_speed": 1.0,
+            "max_speed": 15.0
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "witcher_rpg:rend_spell",
+      "randomness": 1.2
+    }
+  },
+  "target": {
+    "type": "NONE"
+  },
+  "deliver": {
+    "type": "MELEE",
+    "melee": {
+      "attacks": [
+        {
+          "damage_bonus": 1.5,
+          "attack_speed_multiplier": 1.5,
+          "delay": 0.1,
+          "hitbox": {
+            "length": 5.0
+          },
+          "animation": {
+            "id": "witcher_rpg:rend_release"
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DISRUPT",
+        "disrupt": {
+          "shield_blocking": true,
+          "item_usage_seconds": 4.0
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.0
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 1.0,
+    "cooldown": {
+      "duration": 22.0
+    }
+  }
+}

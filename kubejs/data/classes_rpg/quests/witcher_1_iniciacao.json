@@ -1,0 +1,23 @@
+{
+  "title": "Iniciação do Witcher",
+  "summary": "Todo Witcher começa limpando os arredores da vila. Derrote 15 zumbis e 10 esqueletos e eu lhe entregarei sua primeira arma de verdade.",
+  "goals": [
+    {
+      "id": "matar_zumbis",
+      "kill": "minecraft:zombie",
+      "amount": 15
+    },
+    {
+      "id": "matar_esqueletos",
+      "kill": "minecraft:skeleton",
+      "amount": 10
+    }
+  ],
+  "rewards": {
+    "xp": 120,
+    "items": {
+      "witcher_rpg:steel_witcher_sword": 1,
+      "minecraft:emerald": 8
+    }
+  }
+}

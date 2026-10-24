@@ -1,0 +1,29 @@
+{
+  "title": "Provação do Witcher",
+  "summary": "Você provou seu valor, aprendiz de Witcher. Agora enfrente o que rasteja na escuridão: 20 aranhas e 10 creepers. Em troca, receberá a primeira parte da armadura da sua ordem.",
+  "requires": {
+    "quests": [
+      "classes_rpg:witcher_1_iniciacao"
+    ]
+  },
+  "goals": [
+    {
+      "id": "matar_aranhas",
+      "kill": "minecraft:spider",
+      "amount": 20
+    },
+    {
+      "id": "matar_creepers",
+      "kill": "minecraft:creeper",
+      "amount": 10
+    }
+  ],
+  "rewards": {
+    "xp": 300,
+    "items": {
+      "witcher_rpg:wolven_head": 1,
+      "witcher_rpg:wolven_chest": 1,
+      "minecraft:emerald": 16
+    }
+  }
+}

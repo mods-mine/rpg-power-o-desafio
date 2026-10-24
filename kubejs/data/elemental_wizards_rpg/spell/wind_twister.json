@@ -1,0 +1,78 @@
+{
+  "school": "spell_power:air",
+  "range": 22.0,
+  "tier": 2,
+  "group": "wind_pressure",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 1.0,
+      "animation": {
+        "id": "spell_engine:one_handed_projectile_charge"
+      },
+      "sound": {
+        "id": "mrpg_lib:air_magic_cast1"
+      },
+      "particles": [
+        {
+          "id": "mrpg_lib:small_gust",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "PILLAR",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.05,
+            "max_speed": 0.2
+          }
+        },
+        {
+          "id": "mrpg_lib:small_gust",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.05,
+            "max_speed": 0.2
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_projectile_release"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "SPAWN",
+        "spawns": [
+          {
+            "entity_type_id": "elemental_wizards_rpg:whirlwind",
+            "time_to_live_seconds": 7,
+            "placement": {
+              "apply_yaw": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 12.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "mrpg_lib:storm_stone"
+    }
+  }
+}

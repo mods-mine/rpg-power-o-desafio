@@ -1,0 +1,106 @@
+{
+  "school": "spell_power:quen",
+  "range": 0.0,
+  "tier": 2,
+  "group": "signs",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "movement_speed": 0.75
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "witcher_rpg:sign_cast_short"
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:lightning_arc_a",
+          "appearance": {
+            "playback_speed": 0.41,
+            "lifetime_variance": 0.55,
+            "color": 4294928127,
+            "scale": 0.75,
+            "drag": 0.96,
+            "collides": true
+          },
+          "batch": {
+            "count": 3.0,
+            "shape": "SPHERE",
+            "anchor": "LAUNCH_POINT",
+            "min_speed": 0.01,
+            "max_speed": 0.05,
+            "extent": 1.0
+          }
+        },
+        {
+          "id": "spell_engine:lightning_arc_b",
+          "appearance": {
+            "playback_speed": 0.41,
+            "lifetime_variance": 0.55,
+            "color": 4294928127,
+            "scale": 0.75,
+            "drag": 0.96,
+            "collides": true
+          },
+          "batch": {
+            "count": 5.0,
+            "shape": "PILLAR",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.01,
+            "max_speed": 0.05,
+            "extent": 1.0
+          }
+        },
+        {
+          "id": "witcher_rpg:quen_sign_cast",
+          "appearance": {},
+          "batch": {
+            "count": 3.0,
+            "shape": "PIPE",
+            "anchor": "LAUNCH_POINT",
+            "min_speed": 0.01,
+            "max_speed": 0.1
+          }
+        },
+        {
+          "id": "witcher_rpg:quen_sign_cast",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "SPHERE",
+            "anchor": "LAUNCH_POINT",
+            "min_speed": 0.01,
+            "max_speed": 0.2
+          }
+        }
+      ]
+    },
+    "sound": {
+      "id": "witcher_rpg:quen_sign"
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "witcher_rpg:quen_shield",
+          "amplifier_power_multiplier": 0.25
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.4,
+    "cooldown": {
+      "group": "quen",
+      "duration": 24.0
+    }
+  }
+}

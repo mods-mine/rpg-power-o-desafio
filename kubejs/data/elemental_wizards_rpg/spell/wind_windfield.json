@@ -1,0 +1,150 @@
+{
+  "school": "spell_power:air",
+  "range": 16.0,
+  "tier": 3,
+  "group": "wind_pressure",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 1.0,
+      "animation": {
+        "id": "spell_engine:one_handed_projectile_charge"
+      },
+      "sound": {
+        "id": "mrpg_lib:air_magic_cast1"
+      },
+      "particles": [
+        {
+          "id": "mrpg_lib:small_gust",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "PILLAR",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.05,
+            "max_speed": 0.2
+          }
+        },
+        {
+          "id": "mrpg_lib:small_gust",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "shape": "CIRCLE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.05,
+            "max_speed": 0.2
+          }
+        }
+      ]
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:one_handed_projectile_release"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "required": true
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.8,
+          "knockback": 0.0
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:smoke_medium",
+            "appearance": {
+              "color": 4294967295
+            },
+            "batch": {
+              "count": 25.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "alignment": "LOOK",
+              "min_speed": 0.4,
+              "max_speed": 0.8
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "mrpg_lib:air_magic_impact3"
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "elemental_wizards_rpg:windfield",
+          "duration": 5.0,
+          "apply_limit": {
+            "health_base": 65.0,
+            "spell_power_multiplier": 2.0
+          }
+        }
+      }
+    }
+  ],
+  "area_impact": {
+    "radius": 3.0,
+    "area": {
+      "distance_dropoff": "SQUARED"
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "spell_engine:smoke_large",
+          "appearance": {
+            "color": 4294967295
+          },
+          "batch": {
+            "count": 25.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "min_speed": 0.3,
+            "max_speed": 0.8
+          }
+        },
+        {
+          "id": "spell_engine:smoke_medium",
+          "appearance": {
+            "color": 4294967295
+          },
+          "batch": {
+            "count": 25.0,
+            "shape": "SPHERE",
+            "anchor": "ENTITY",
+            "min_speed": 0.3,
+            "max_speed": 0.8,
+            "extent": 0.5
+          }
+        }
+      ]
+    }
+  },
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "duration": 20.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "mrpg_lib:storm_stone"
+    }
+  }
+}

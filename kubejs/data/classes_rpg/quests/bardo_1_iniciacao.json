@@ -1,0 +1,23 @@
+{
+  "title": "Iniciação do Bardo",
+  "summary": "Todo Bardo começa limpando os arredores da vila. Derrote 15 zumbis e 10 esqueletos e eu lhe entregarei sua primeira arma de verdade.",
+  "goals": [
+    {
+      "id": "matar_zumbis",
+      "kill": "minecraft:zombie",
+      "amount": 15
+    },
+    {
+      "id": "matar_esqueletos",
+      "kill": "minecraft:skeleton",
+      "amount": 10
+    }
+  ],
+  "rewards": {
+    "xp": 120,
+    "items": {
+      "bards_rpg:iron_rapier": 1,
+      "minecraft:emerald": 8
+    }
+  }
+}

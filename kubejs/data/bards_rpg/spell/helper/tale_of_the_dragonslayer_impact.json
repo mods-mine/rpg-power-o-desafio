@@ -1,0 +1,60 @@
+{
+  "school": "spell_power:generic",
+  "range": 0.0,
+  "tier": 1,
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {},
+  "deliver": {
+    "type": "STASH_EFFECT",
+    "stash_effect": {
+      "id": "bards_rpg:tale_of_the_dragonslayer",
+      "triggers": [
+        {
+          "type": "MELEE_IMPACT"
+        },
+        {
+          "type": "ARROW_IMPACT"
+        }
+      ],
+      "consume": 0
+    }
+  },
+  "impacts": [
+    {
+      "attribute_from_target": true,
+      "attribute": "minecraft:generic.max_health",
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.01
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_skull",
+            "appearance": {
+              "color": 4284940287,
+              "motion": "BURST"
+            },
+            "batch": {
+              "count": 20.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.3,
+              "max_speed": 0.5
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cost": {
+    "cooldown": {
+      "duration": 1.0
+    }
+  }
+}

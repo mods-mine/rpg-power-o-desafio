@@ -1,0 +1,59 @@
+{
+  "school": "spell_power:quen",
+  "range": 0.0,
+  "tier": 4,
+  "group": "signs",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 5.0,
+      "type": "CHANNEL",
+      "channel": {
+        "ticks": 25
+      },
+      "animation": {
+        "id": "witcher_rpg:sign_cast_long"
+      },
+      "movement_speed": 0.1,
+      "sound": {
+        "id": "witcher_rpg:quen_sign",
+        "randomness": 0.4
+      },
+      "particles": [
+        {
+          "id": "witcher_rpg:quen_sign_cast",
+          "appearance": {},
+          "batch": {
+            "count": 1.0,
+            "chance": 0.3,
+            "shape": "SPHERE",
+            "anchor": "LAUNCH_POINT",
+            "min_speed": 0.01,
+            "max_speed": 0.5
+          }
+        }
+      ]
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "CUSTOM",
+        "custom": {
+          "handler": "witcher_rpg:quen_active"
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.4,
+    "cooldown": {
+      "group": "quen",
+      "duration": 36.0,
+      "haste_affected": false
+    }
+  }
+}

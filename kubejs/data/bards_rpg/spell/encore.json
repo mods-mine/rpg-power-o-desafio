@@ -1,0 +1,192 @@
+{
+  "school": "spell_power:arcane",
+  "secondary_archetype": "ANY",
+  "range": 4.0,
+  "tier": 3,
+  "group": "encourage",
+  "learn": {
+    "level_requirement_per_tier": 5,
+    "level_cost_per_tier": 1
+  },
+  "active": {
+    "cast": {
+      "duration": 1.25,
+      "type": "CHARGE",
+      "charge": {
+        "output_scaling": 0.8,
+        "bonus": {
+          "range_add": 12.0
+        }
+      },
+      "animation": {
+        "id": "bards_rpg:sing_channel",
+        "overrides": [
+          {
+            "equipment": {
+              "slot": "MAINHAND",
+              "item": "#bards_rpg:lyres"
+            },
+            "id": "bards_rpg:lyre_channel"
+          },
+          {
+            "equipment": {
+              "slot": "MAINHAND",
+              "item": "#bards_rpg:lutes"
+            },
+            "id": "bards_rpg:lute_channel"
+          },
+          {
+            "equipment": {
+              "slot": "MAINHAND",
+              "item": "#bards_rpg:harp_crossbows"
+            },
+            "id": "bards_rpg:harp_channel"
+          }
+        ]
+      },
+      "movement_speed": 1.5,
+      "sound": {
+        "id": "bards_rpg:encore_channel"
+      }
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "bards_rpg:sing_release",
+      "overrides": [
+        {
+          "equipment": {
+            "slot": "MAINHAND",
+            "item": "#bards_rpg:lyres"
+          },
+          "id": "bards_rpg:lyre_release"
+        },
+        {
+          "equipment": {
+            "slot": "MAINHAND",
+            "item": "#bards_rpg:lutes"
+          },
+          "id": "bards_rpg:lute_release"
+        },
+        {
+          "equipment": {
+            "slot": "MAINHAND",
+            "item": "#bards_rpg:harp_crossbows"
+          },
+          "id": "bards_rpg:harp_release"
+        }
+      ]
+    },
+    "visuals": {
+      "particles": [
+        {
+          "id": "mrpg_lib:music_note",
+          "appearance": {
+            "color": 16777215
+          },
+          "batch": {
+            "count": 10.0,
+            "shape": "PIPE",
+            "anchor": "ENTITY",
+            "vertical_origin": 0.1,
+            "min_speed": 0.4,
+            "max_speed": 0.5,
+            "extent": 2.0,
+            "width_factor": 2.0
+          }
+        }
+      ]
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "include_caster": true
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 0.6,
+          "knockback": 0.5
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "spell_engine:magic_spark",
+            "appearance": {
+              "color": 16777215,
+              "motion": "BURST"
+            },
+            "batch": {
+              "count": 30.0,
+              "shape": "SPHERE",
+              "anchor": "ENTITY",
+              "min_speed": 0.2,
+              "max_speed": 0.7
+            }
+          },
+          {
+            "id": "mrpg_lib:music_note",
+            "appearance": {
+              "color": 16777215
+            },
+            "batch": {
+              "count": 1.0,
+              "chance": 0.5,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.6,
+              "max_speed": 0.8,
+              "extent": 0.5
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "bards_rpg:bard_impact"
+      }
+    },
+    {
+      "action": {
+        "type": "COOLDOWN",
+        "cooldown": {
+          "actives": {
+            "duration_multiplier": 0.8
+          }
+        }
+      },
+      "visuals": {
+        "particles": [
+          {
+            "id": "mrpg_lib:music_note",
+            "appearance": {
+              "color": 16777215
+            },
+            "batch": {
+              "count": 1.0,
+              "chance": 0.5,
+              "shape": "CIRCLE",
+              "anchor": "ENTITY",
+              "min_speed": 0.6,
+              "max_speed": 0.8,
+              "extent": 0.5
+            }
+          }
+        ]
+      },
+      "sound": {
+        "id": "bards_rpg:encore_cooldown_impact"
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.2,
+    "cooldown": {
+      "duration": 20.0
+    }
+  }
+}
